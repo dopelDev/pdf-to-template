@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Report</title>
+</head>
+<body>
+    <h1>Company: {{ data[0]['Company name'] }}</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Text</th>
+                {% for i in range(1, 23) %}
+                    <th>Column {{ i }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in data[1:] %}
+                <tr>
+                    <td>{{ row['text'] }}</td>
+                    {% for i in range(1, 23) %}
+                        <td>{{ row.get('column' ~ i, '') }}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

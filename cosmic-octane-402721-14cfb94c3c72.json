@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "cosmic-octane-402721",
+    "private_key_id": "14cfb94c3c723463cdbbea097a950add0c615307",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDMa7YcUN8dNKan\nTjGdWDTy7qGK92mCVXFLEXqQEBYQ6fFYI3+S4QrnIRoCcRTjhjeibO9KdMvOPNcK\nHPz2X/LRNF4Bwwu6VW8o8qtlXCcI0xKHykgYGtZ3JdRX8naWHc9sk3H6Tl4mUZBU\n5Hy/xjgdp70vNpeUKyJ9epCeZ93exuTOyOxUYAtqEhPcbiooopYXGzKd0qVORwvf\nZ3dm25ivLfblu+BIXzto3Hh0j+/jLilX03rylG8rpgiOPDiiSG8T0SnhnPQwe3GF\nYqit412Kuh8wVz9wdT7ryeCYQ/7/ygZ2DhfRvtjNewXCjxtBCQuPuXVG3+/R0l6x\nq06EL+CpAgMBAAECggEAEW4NtRRgMclPfGx6ZoQi36PhOkwmPuqyIkh3PtlgSEjq\nPy2nrwppN5Pm99ZUhaHoFH1dWefjiM4/N6mJGCjON3BTo6rR0S1/sOogGyBkY6g7\nqEBjLUr8hmQ/WtBdtCcOjJ911HXiKTpDKDnjOSbZmg23X9Mz0XpsEm7k7dzFWj1M\nGOYB0bmONjJlCnQ60Nee/Scl+S/2t11sxjnw34HZOz6NuwL+LoqH0l1/ueK5/jF1\n0DQ92AUgmKTJ9ljsan0PQhs8o2yffsCVn2c7pOGKMW3wVKGNikjQgk3O2+ucfteK\nj3oxUFzLsXkFgqGyTRQWLMjCBhPJ0xZKAdZFkv4IAQKBgQD4P4g8ggOEh609G28U\n0kCoW/XaiCzXqgHWXs+oyTqjDaLTtqWqBgteL2y23dQFgmtQno7RTOb66Qz0KBK5\nNJI3Cqu0Xu2t7xqIB53eLL3Pfb5Pim4omqTGcjHrqd6Mwb3HrJlHWu0zrs5ATbTf\nfVW8+Lx9vY34e/I6kb1hUb/sQQKBgQDSzdPlKOJNWvHK/K16oB7d76QCfdP8lZqY\n1vZnvwnthJmRy4yJYl0aBbMYqSFCHMzszhCGom0a77Shin8h0JleX4ajkUlv4bfw\nRaeyrUFzhta2yqhNc3wMNve+Plz/amSB5r3lDedEE6Wr0T8pT/XcYqCp5E/0dHka\nxfDisaF6aQKBgQCUkMkClThvtxbpTCLFTjLdzvMqjnZvttGUrncOZydNb5qzo0ov\nn6BsBGvGYKlDhtKck9ea0LAnFxPmhpj1981NXXh24JzTjBXPtOc4kIQjyff7+DeG\n202jabIQfD+w8z2VYuj0eCke1g2fFCIb4hFOn3mGsstlGyBTBudUd60pQQKBgGT/\nNkE5uErFgsj1DIyOwJsmYFbNQE5owtvtSbrk/XWtrQH8GsYLuX1pM6hiB8wsDkZ6\nZ9KJaWqZY9pth4GE9qYPcGtXhW60HzNfu/vQJGacOKz1JXOOG+WiREoCiP3aVHMk\nQODIK4AjRaGvK+q4I5xGKKGdAG2njAo2wbVq02nZAoGBANckLqNtuQktf1qrGBZq\nwlVqCWql4ZaWwx23UjvSdfLd7PCs3ro33S8BQjXWid462DtRIlceQfTJpxT/CStV\n6HNmj3y5umgk/Ihhgi0FpebtSjpnaW0aOoofI+vsHtYfNeEzQIeS0p8td5mtwlJi\nRTy4r70gqMxbU8Z/QTQkLRH3\n-----END PRIVATE KEY-----\n",
+    "client_email": "duplicatefinder@cosmic-octane-402721.iam.gserviceaccount.com",
+    "client_id": "104152010811297413807",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/duplicatefinder%40cosmic-octane-402721.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+}

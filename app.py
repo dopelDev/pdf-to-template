@@ -1,0 +1,62 @@
+from flask import Flask, request, redirect, url_for, render_template, jsonify
+import os
+import json
+from werkzeug.utils import secure_filename
+from mSousa.main_module import main as mSousa_main
+
+app = Flask(__name__)
+app.config['UPLOAD_FOLDER'] = './pdf_directory'  # Actualiza esto con la ruta donde quieres guardar los archivos
+app.config['IMAGES_FOLDER'] = './images'  # Actualiza esto con la ruta donde quieres guardar las imagenes
+app.config['RESPONSE_FOLDER'] = './responses'  # Actualiza esto con la ruta donde quieres guardar las respuestas
+if not os.path.exists(app.config['UPLOAD_FOLDER']):
+    os.makedirs(app.config['UPLOAD_FOLDER'])
+
+@app.route('/upload', methods=['GET', 'POST'])
+def upload_file():
+    if request.method == 'POST':
+        if 'file' not in request.files:
+            return "No file part", 400
+
+        file = request.files['file']
+
+        if file.filename == '':
+            return "No selected file", 400
+        filename = file.filename.replace(" ", "_")
+        if file:
+            filename = secure_filename(filename)  # Use the modified filename
+            file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+            file.save(file_path)
+            data = mSousa_main(file_path, app.config['RESPONSE_FOLDER'], app.config['IMAGES_FOLDER']) 
+            json_data = json.dumps(data)
+
+            # Guarda los resultados en un archivo
+            results_filename = filename + '.json'
+            results_filepath = os.path.join(app.config['RESPONSE_FOLDER'], results_filename)
+            with open(results_filepath, 'w') as f:
+                f.write(json_data)
+
+            # Redirige al usuario a la URL de resultados
+            return redirect(url_for('show_results', filename=results_filename))
+    else:
+        return render_template('upload.html')
+
+@app.route('/results/<filename>', methods=['GET'])
+def show_results(filename):
+    # Carga los resultados del archivo
+    results_filepath = os.path.join(app.config['RESPONSE_FOLDER'], filename)
+    with open(results_filepath, 'r') as f:
+        results = f.read()
+    return render_template('report.html', data=json.loads(results))
+
+
+def allowed_file(filename):
+    if '.' not in filename:
+        return False, "File has no extension"
+    elif filename.rsplit('.', 1)[1].lower() != 'json':
+        return False, "File is not a JSON file"
+    else:
+        return True, "File is valid"
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
