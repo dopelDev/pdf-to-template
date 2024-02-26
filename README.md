@@ -9,6 +9,7 @@ You'll need to have `poppler-utils` and `Tesseract` installed on your system to 
 ```bash
 sudo apt-get install poppler-utils
 sudo apt-get install tesseract-ocr
+sudo apt-get install python3-virtualenv
 cd pdf-to-template
 virtualenv env
 source env/bin/activate
