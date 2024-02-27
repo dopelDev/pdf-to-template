@@ -1,12 +1,21 @@
 import re
 import json
+from .logger import build_logger
+import os
+path = os.path.dirname(os.path.abspath(__file__))
 
+# initialize logger
+logger = build_logger('proc_json', path + '/logs')
+
+# Extract x and y coordinates from a list of vertices
 def extract_coordinates(vertices):
     x_coords = [vertex.get('x') for vertex in vertices]
     y_coords = [vertex.get('y') for vertex in vertices]
     return x_coords, y_coords
 
+# Find the coordinates of certians words in the json data
 def find_coordinates(json_data, words):
+    logger.info(f'Finding coordinates of words ' + ', '.join(words))
     annotations = json_data.get('textAnnotations', [])[1:]
     word_coords = {word: {'x1': None, 'x2': None, 'y1': None, 'y2': None} for word in words}
 
@@ -26,8 +35,9 @@ def find_coordinates(json_data, words):
 
     return word_coords
 
-
+# Find all Text Annotations in the json data that are below the Y coordinate of the word
 def find_in_all_y(json_data, word1, word2, tolerance=4):
+    logger.info(f'Finding text annotations below the Y coordinate of {word1} and {word2}')
     annotations = json_data.get('textAnnotations', [])[1:]
     all_rows = []
     next_row = []
@@ -60,8 +70,9 @@ def find_in_all_y(json_data, word1, word2, tolerance=4):
     all_rows.append(next_row)
     return all_rows
 
-
+# Transform the structure of the data so that each rows is a dictionary with the text and the coordinates into a single list
 def transform_structure(all_rows):
+    logger.info('Transforming structure of the data')
     transformed = []
     for chunk in all_rows:
         text = ' '.join([row['text'] for row in chunk])
@@ -72,7 +83,10 @@ def transform_structure(all_rows):
         transformed.append({'text': text, 'x1': x1, 'x2': x2, 'y1': y1, 'y2': y2})
     return transformed
 
+# Find all text annotations in the json data that are to the right of a certain X coordinate and between two Y coordinates
+# receive a structured json data
 def find_in_all_x(json_data, data, tolerance=8):
+    logger.info(f'Finding text annotations to the right of a certain X coordinate')
     annotations = json_data.get('textAnnotations', [])[1:]
     results = []
 
@@ -80,6 +94,7 @@ def find_in_all_x(json_data, data, tolerance=8):
     max_x = max(max(vertex.get('x', 0) for vertex in annotation.get('boundingPoly', {}).get('vertices', [{}])) for annotation in annotations)
 
     for item in data:
+        logger.debug(f'Processing item: {item["text"]}')
         y1, y2, x2_max = item['y1'] - tolerance, item['y2'] + tolerance, item['x2']
         result = {'text': item['text']}
         next_column = []
@@ -105,33 +120,26 @@ def find_in_all_x(json_data, data, tolerance=8):
                     next_x = x_min
                     column_number += 1
 
-        # Add the last column to the result
         if next_column:
             result[f'column{column_number}'] = '$ ' + ' '.join(next_column)
-
+        if len(result) < 23:
+            logger.debug(f'Rows founded for: {item["text"]} Rows length: {len(result)} is less than 23')
+            result = check_rows_lenght_then_process(result)
         results.append(result)
 
     return results
 
-def find_names_and_orders(json_data):
-    name_pattern = r"([A-Za-z]+),\s([A-Za-z]+)(\s[A-Za-z])?"
-    order_name = "N/A No Orders"
-    annotations = json_data.get('textAnnotations', [])[1:]
-    results = []
+#  Check if the rows have the same length and process them
+# receive a strcutured json data
+def check_rows_lenght_then_process(result: dict): 
+    exclude_names = ['PPP Reduction', 'Total Wage']
+    if result['text'] in exclude_names:
+        logger.debug(f'return without processing: {result["text"]}')
+        return result
+    return result
 
-    for annotation in annotations:
-        text = annotation.get('description', '')
-        vertices = annotation.get('boundingPoly', {}).get('vertices', [])
-        x_coords, y_coords = extract_coordinates(vertices)
 
-        if re.match(name_pattern, text) or text == order_name:
-            result = {
-                'text': text,
-                'x1': min(x_coords),
-                'x2': max(x_coords),
-                'y1': min(y_coords),
-                'y2': max(y_coords)
-            }
-            results.append(result)
-
-    return results
+# Check if the rows have the same Names or Last Names and return them into a single list of dictionaries (for issues report)
+# receive a strcutured json data
+def agroup_duplicated_names(names : list):
+    pass
