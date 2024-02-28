@@ -31,6 +31,7 @@ def get_company_name(inc_name):
 
 
 def main(file, responses_path, images_path):
+    same_names = None
     pdf_name = proc_pdf.convert_pdf_to_images(file, images_path)
     if not os.path.exists(f"{responses_path}/results/{pdf_name}"):
         os.makedirs(f"{responses_path}/results/{pdf_name}")
@@ -82,7 +83,8 @@ def main(file, responses_path, images_path):
                all_columns = proc_json.find_in_all_x(json_data, names)
                final_json.extend(all_columns)
        print('saving to json extructure')
+       same_names = proc_json.agroup_duplicated_names(final_json)
        with open(f'{responses_path}/results/extructure.json', 'w') as f:
            json.dump(final_json, f, indent=4)
 
-    return final_json
+    return final_json, same_names

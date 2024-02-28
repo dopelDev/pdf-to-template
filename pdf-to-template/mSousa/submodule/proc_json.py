@@ -132,14 +132,59 @@ def find_in_all_x(json_data, data, tolerance=8):
 #  Check if the rows have the same length and process them
 # receive a strcutured json data
 def check_rows_lenght_then_process(result: dict): 
+    regex = r'\b\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2})?\b'
     exclude_names = ['PPP Reduction', 'Total Wage']
     if result['text'] in exclude_names:
         logger.debug(f'return without processing: {result["text"]}')
         return result
+    # Iterate over each item in the 'result' dictionary
+    for key in list(result.keys()):
+        # If the key starts with 'column' and the value matches the regex twice,
+        # split the value into two and add the second value to the next column
+        if key.startswith('column') and len(re.findall(regex, result[key])) == 2:
+            values = re.findall(regex, result[key])
+            next_column = 'column' + str(int(key[6:]) + 1)
+            i = None
+            if next_column in result:
+                # If the next column already exists, shift all subsequent columns
+                i = int(next_column[6:])
+                while f'column{i}' in result:
+                    i += 1
+                while i > int(next_column[6:]):
+                    result[f'column{i}'] = result[f'column{i-1}']
+                    i -= 1
+            # Make the last part of the split the previous column
+            result[key] = '$ ' + values[1]
+            # Make the previous column the second column
+            result[next_column] = result[key]
+            # Make the first part of the split the last column
+            result[f'column{i}'] = '$ ' + values[0]
+    
+    # Return the 'result' dictionary
     return result
 
 
 # Check if the rows have the same Names or Last Names and return them into a single list of dictionaries (for issues report)
 # receive a strcutured json data
-def agroup_duplicated_names(names : list):
-    pass
+def agroup_duplicated_names(data: list[dict]):
+    logger.info('Checking if the rows have the same Last Names and return them into a single list of dictionaries')
+    grouped_data = {}
+
+    for item in data:
+        if 'text' in item:
+            # Remove commas and split the 'text' field into parts
+            parts = item['text'].replace(',', '').split()
+            if len(parts) >= 2:
+                key = parts[1]  # Use the second part (lastname) as the key
+                # Ignore families whose names end with '.' or are a set of 'I'
+                if key.endswith('.') or all(char == 'I' for char in key):
+                    continue
+                if key not in grouped_data:
+                    grouped_data[key] = []
+                # Append the entire item to the group
+                grouped_data[key].append(item)
+
+    # Convert the grouped data into the desired format, only including families with more than 1 member
+    result = [[{"Family name": family_name}, *members] for family_name, members in grouped_data.items() if len(members) > 1]
+    logger.debug(f'Grouped data: {result}')
+    return result
