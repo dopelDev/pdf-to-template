@@ -70,8 +70,6 @@ def show_results_with_duplicates(filename, filename_duplicates):
     with open(results_filepath_duplicates, 'r') as f:
         results_duplicates = f.read()
     # Find duplicates
-    for group in json.loads(results_duplicates):
-        print('Group: ', group)
     return render_template('report_with_duplicates.html', data=json.loads(results), duplicate_names=json.loads(results_duplicates))
 
 

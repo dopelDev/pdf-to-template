@@ -177,7 +177,7 @@ def agroup_duplicated_names(data: list[dict]):
             if len(parts) >= 2:
                 key = parts[1]  # Use the second part (lastname) as the key
                 # Ignore families whose names end with '.' or are a set of 'I'
-                if key.endswith('.') or all(char == 'I' for char in key):
+                if key.endswith('.') or all(char == 'I' for char in key) or len(key) < 2:
                     continue
                 if key not in grouped_data:
                     grouped_data[key] = []
