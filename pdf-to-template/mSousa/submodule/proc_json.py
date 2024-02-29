@@ -167,24 +167,31 @@ def check_rows_lenght_then_process(result: dict):
 # Check if the rows have the same Names or Last Names and return them into a single list of dictionaries (for issues report)
 # receive a strcutured json data
 def agroup_duplicated_names(data: list[dict]):
-    logger.info('Checking if the rows have the same Last Names and return them into a single list of dictionaries')
+    logger.info('Checking if the rows have the same First Names or Last Names and return them into a single list of dictionaries')
     grouped_data = {}
 
     for item in data:
         if 'text' in item:
             # Remove commas and split the 'text' field into parts
             parts = item['text'].replace(',', '').split()
+            if len(parts) >= 1:
+                first_name = parts[0]  # Use the first part (name) as the key
+                # Ignore names that end with '.' or are a set of 'I' or have less than 2 characters
+                if not (first_name.endswith('.') or all(char == 'I' for char in first_name) or len(first_name) < 2):
+                    if first_name not in grouped_data:
+                        grouped_data[first_name] = []
+                    # Append the entire item to the group
+                    grouped_data[first_name].append(item)
             if len(parts) >= 2:
-                key = parts[1]  # Use the second part (lastname) as the key
-                # Ignore families whose names end with '.' or are a set of 'I'
-                if key.endswith('.') or all(char == 'I' for char in key) or len(key) < 2:
-                    continue
-                if key not in grouped_data:
-                    grouped_data[key] = []
-                # Append the entire item to the group
-                grouped_data[key].append(item)
+                last_name = parts[1]  # Use the second part (lastname) as the key
+                # Ignore families whose names end with '.' or are a set of 'I' or have less than 2 characters
+                if not (last_name.endswith('.') or all(char == 'I' for char in last_name) or len(last_name) < 2):
+                    if last_name not in grouped_data:
+                        grouped_data[last_name] = []
+                    # Append the entire item to the group
+                    grouped_data[last_name].append(item)
 
-    # Convert the grouped data into the desired format, only including families with more than 1 member
-    result = [[{"Family name": family_name}, *members] for family_name, members in grouped_data.items() if len(members) > 1]
+    # Convert the grouped data into the desired format, only including names with more than 1 occurrence
+    result = [[{"Name": name}, *members] for name, members in grouped_data.items() if len(members) > 1]
     logger.debug(f'Grouped data: {result}')
     return result
