@@ -36,7 +36,7 @@ def find_coordinates(json_data, words):
     return word_coords
 
 # Find all Text Annotations in the json data that are below the Y coordinate of the word
-def find_in_all_y(json_data, word1, word2, tolerance=4):
+def find_in_all_y(json_data, word1, word2, tolerance=6):
     logger.info(f'Finding text annotations below the Y coordinate of {word1} and {word2}')
     annotations = json_data.get('textAnnotations', [])[1:]
     all_rows = []
