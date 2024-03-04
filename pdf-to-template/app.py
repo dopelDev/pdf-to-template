@@ -13,6 +13,7 @@ if not os.path.exists(app.config['UPLOAD_FOLDER']):
 
 @app.route('/upload', methods=['GET', 'POST'])
 def upload_file():
+    duplicate_names = None
     if request.method == 'POST':
         if 'file' not in request.files:
             return "No file part", 400
@@ -26,7 +27,7 @@ def upload_file():
             filename = secure_filename(filename)  # Use the modified filename
             file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
             file.save(file_path)
-            data = mSousa_main(file_path, app.config['RESPONSE_FOLDER'], app.config['IMAGES_FOLDER']) 
+            data, duplicate_names = mSousa_main(file_path, app.config['RESPONSE_FOLDER'], app.config['IMAGES_FOLDER']) 
             json_data = json.dumps(data)
 
             # Guarda los resultados en un archivo
@@ -35,8 +36,18 @@ def upload_file():
             with open(results_filepath, 'w') as f:
                 f.write(json_data)
 
-            # Redirige al usuario a la URL de resultados
+            if duplicate_names is not None:
+                json_data_duplicate_names = json.dumps(duplicate_names)
+                results_filename_duplicate_names = filename + '_duplicate_names.json'
+                results_filepath_duplicate_names = os.path.join(app.config['RESPONSE_FOLDER'], results_filename_duplicate_names)
+                with open(results_filepath_duplicate_names, 'w') as f:
+                    f.write(json_data_duplicate_names)
+                
+                # Redirige al usuario a la URL de resultados
+                return redirect(url_for('show_results_with_duplicates', filename=results_filename, filename_duplicates=results_filename_duplicate_names))
+
             return redirect(url_for('show_results', filename=results_filename))
+
     else:
         return render_template('upload.html')
 
@@ -47,6 +58,19 @@ def show_results(filename):
     with open(results_filepath, 'r') as f:
         results = f.read()
     return render_template('report.html', data=json.loads(results))
+
+@app.route('/results/<filename>/<filename_duplicates>', methods=['GET'])
+def show_results_with_duplicates(filename, filename_duplicates):
+    # Carga los resultados del archivo
+    results_filepath = os.path.join(app.config['RESPONSE_FOLDER'], filename)
+    with open(results_filepath, 'r') as f:
+        results = f.read()
+    # Carga los resultados del archivo
+    results_filepath_duplicates = os.path.join(app.config['RESPONSE_FOLDER'], filename_duplicates)
+    with open(results_filepath_duplicates, 'r') as f:
+        results_duplicates = f.read()
+    # Find duplicates
+    return render_template('report_with_duplicates.html', data=json.loads(results), duplicate_names=json.loads(results_duplicates))
 
 
 def allowed_file(filename):

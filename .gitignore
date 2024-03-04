@@ -1,0 +1,7 @@
+pdf-to-template/env/*
+pdf-to-template/mSousa/submodule/__pycache__/*
+pdf-to-template/images/*
+pdf-to-template/mSousa/submodule/logs/*
+pdf-to-template/pdf_directory/*
+pdf-to-template/responses/*
+pdf-to-template/mSousa/__pycache__/*

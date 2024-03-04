@@ -4,7 +4,16 @@
 		<title>Report</title>
 	</head>
 	<body>
+		{% block content %}
 		<h1>Company: {{ data[0]['Company name'] }}</h1>
+		<style>
+table {
+	border-collapse: collapse; /* Esto es para que no haya espacios entre los bordes de las celdas */
+}
+				th, td, tr {
+					border: 1px solid black; /* Define el estilo del borde */
+				}
+		</style>
 		<table>
 			<thead>
 				<tr>
@@ -43,4 +52,5 @@
 			</tbody>
 		</table>
 	</body>
+	{% endblock %}
 </html>
