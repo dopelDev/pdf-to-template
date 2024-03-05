@@ -50,22 +50,18 @@ def main(file, responses_path, images_path):
                json_data = json.load(f)
            if first_iteration:
                words = ['Employee', 'Retention', 'Credit']
-               words_coords = proc_json.find_coordinates(json_data, words)
-               employee_coords = words_coords['Employee']
-               credit_coords = words_coords['Credit']
-               inc_name = proc_json.find_in_all_y(json_data, employee_coords, credit_coords)
+               coords = proc_json.find_coordinates(json_data, words)
+               inc_name = proc_json.find_in_all_y(json_data, coords)
                company_name = get_company_name(inc_name)
                print(f'company_name: {company_name}')
    
                first_iteration = False
                # Encuentra X1, X2 y la menor Y1 para "Master" y "tabs"
-               words = ["Master", "Employee", "tabs", ")"]
-               words_coords = proc_json.find_coordinates(json_data, words)
-               master_coords = words_coords["Master"]
-               tabs_coords = words_coords["tabs"]
+               words = ["Master", "Employee", "List"]
+               coords = proc_json.find_coordinates(json_data, words)
    
                # Encuentra todos los textos que están debajo de "Master" y "tabs" y agrúpalos usando los valores obtenidos
-               names = proc_json.find_in_all_y(json_data, master_coords, tabs_coords)
+               names = proc_json.find_in_all_y(json_data, coords)
                names = proc_json.transform_structure(names)
                all_columns = proc_json.find_in_all_x(json_data, names)
                company_info = {'Company name': company_name}
@@ -75,10 +71,8 @@ def main(file, responses_path, images_path):
            else:
                print(f'processing json file {file}')
                words = ['DocuSign', 'Envelope']
-               words_coords = proc_json.find_coordinates(json_data, words)
-               docu_coords = words_coords['DocuSign']
-               envelope_coords = words_coords['Envelope']
-               names = proc_json.find_in_all_y(json_data, docu_coords, envelope_coords)
+               coords = proc_json.find_coordinates(json_data, words)
+               names = proc_json.find_in_all_y(json_data, coords)
                names = proc_json.transform_structure(names)
                all_columns = proc_json.find_in_all_x(json_data, names)
                final_json.extend(all_columns)

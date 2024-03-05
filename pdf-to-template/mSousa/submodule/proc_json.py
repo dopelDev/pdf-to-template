@@ -13,39 +13,43 @@ def extract_coordinates(vertices):
     y_coords = [vertex.get('y') for vertex in vertices]
     return x_coords, y_coords
 
-# Find the coordinates of certians words in the json data
+# Find the coordinates of maximum and mínimos words in the json data
 def find_coordinates(json_data, words):
     logger.info(f'Finding coordinates of words ' + ', '.join(words))
     annotations = json_data.get('textAnnotations', [])[1:]
-    word_coords = {word: {'x1': None, 'x2': None, 'y1': None, 'y2': None} for word in words}
+    min_max_coords = {'x1': None, 'x2': None, 'y1': None, 'y2': None}
 
     for annotation in annotations:
         text = annotation.get('description', '')
         vertices = annotation.get('boundingPoly', {}).get('vertices', [])
         x_coords, y_coords = extract_coordinates(vertices)
 
-        if text in words and word_coords[text]['x1'] is None:
-            word_coords[text]['x1'] = min(x_coords)
-            word_coords[text]['x2'] = max(x_coords)
-            word_coords[text]['y1'] = min(y_coords)
-            word_coords[text]['y2'] = max(y_coords)
+        if text in words:
+            x1, x2 = min(x_coords), max(x_coords)
+            y1, y2 = min(y_coords), max(y_coords)
 
-        if all(coords['x1'] is not None for coords in word_coords.values()):
-            break
+            if min_max_coords['x1'] is None or x1 < min_max_coords['x1']:
+                min_max_coords['x1'] = x1
+            if min_max_coords['x2'] is None or x2 > min_max_coords['x2']:
+                min_max_coords['x2'] = x2
+            if min_max_coords['y1'] is None or y1 < min_max_coords['y1']:
+                min_max_coords['y1'] = y1
+            if min_max_coords['y2'] is None or y2 > min_max_coords['y2']:
+                min_max_coords['y2'] = y2
 
-    return word_coords
+    return min_max_coords
 
 # Find all Text Annotations in the json data that are below the Y coordinate of the word
-def find_in_all_y(json_data, word1, word2, tolerance=6):
-    logger.info(f'Finding text annotations below the Y coordinate of {word1} and {word2}')
+def find_in_all_y(json_data, coords, tolerance_x=12, tolerance_y=6):
+    logger.info(f'Finding text annotations below the Y coordinate of {coords}')
     annotations = json_data.get('textAnnotations', [])[1:]
     all_rows = []
     next_row = []
     next_y = None
 
-    # Calcula los mínimos y máximos de las coordenadas usando x1, x2, y1, y2
-    x1, x2 = min(word1['x1'], word2['x1']), max(word1['x2'], word2['x2'])
-    y1, y2 = min(word1['y1'], word2['y1']), max(word1['y2'], word2['y2'])
+    # Usa las coordenadas proporcionadas
+    x1, x2 = coords['x1'], coords['x2']
+    y1, y2 = coords['y1'], coords['y2']
 
     for annotation in annotations:
         vertices = annotation.get('boundingPoly', {}).get('vertices', [])
@@ -56,10 +60,12 @@ def find_in_all_y(json_data, word1, word2, tolerance=6):
         description = annotation.get('description', '')
 
         # Modifica la condición para que coincida con la estructura deseada
-        if (x1 - tolerance) <= x_min and x_max <= (x2 + tolerance) and y_min > y1:
+        # y_min debe ser mayor que y2 para obtener los que estan debajo
+        # pero debo cambiar la forma de como encuentre el nombre de la empresa
+        if (x1 - (tolerance_x / 4)) <= x_min and x_max <= (x2 + tolerance_x) and y_min > y2:
             if re.match(r'^w+$', description.lower()) or description.lower() == 'docsign':
                 continue
-            if next_y is None or y_min <= next_y + tolerance:
+            if next_y is None or y_min <= next_y + tolerance_y:
                 next_row.append({'text': description, 'x1': x_min, 'x2': x_max, 'y1': y_min, 'y2': max(y_coords)})
                 next_y = y_min
             else:
