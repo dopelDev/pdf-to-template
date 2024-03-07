@@ -1,5 +1,4 @@
 import re
-import json
 from .logger import build_logger
 import os
 path = os.path.dirname(os.path.abspath(__file__))
@@ -40,7 +39,7 @@ def find_coordinates(json_data, words):
     return min_max_coords
 
 # Find all Text Annotations in the json data that are below the Y coordinate of the word
-def find_in_all_y(json_data, coords, tolerance_x=12, tolerance_y=6):
+def find_in_all_y(json_data, coords, tolerance_x=16, tolerance_y=12):
     logger.info(f'Finding text annotations below the Y coordinate of {coords}')
     annotations = json_data.get('textAnnotations', [])[1:]
     all_rows = []
@@ -59,10 +58,7 @@ def find_in_all_y(json_data, coords, tolerance_x=12, tolerance_y=6):
 
         description = annotation.get('description', '')
 
-        # Modifica la condición para que coincida con la estructura deseada
-        # y_min debe ser mayor que y2 para obtener los que estan debajo
-        # pero debo cambiar la forma de como encuentre el nombre de la empresa
-        if (x1 - (tolerance_x / 4)) <= x_min and x_max <= (x2 + tolerance_x) and y_min > y2:
+        if (x1 - (tolerance_x / 2)) <= x_min and x_max <= (x2 + tolerance_x) and y_min > y2:
             if re.match(r'^w+$', description.lower()) or description.lower() == 'docsign':
                 continue
             if next_y is None or y_min <= next_y + tolerance_y:
@@ -91,7 +87,7 @@ def transform_structure(all_rows):
 
 # Find all text annotations in the json data that are to the right of a certain X coordinate and between two Y coordinates
 # receive a structured json data
-def find_in_all_x(json_data, data, tolerance=8):
+def find_in_all_x(json_data, data, tolerance_x=12, tolerance_y=12):
     logger.info(f'Finding text annotations to the right of a certain X coordinate')
     annotations = json_data.get('textAnnotations', [])[1:]
     results = []
@@ -101,11 +97,12 @@ def find_in_all_x(json_data, data, tolerance=8):
 
     for item in data:
         logger.debug(f'Processing item: {item["text"]}')
-        y1, y2, x2_max = item['y1'] - tolerance, item['y2'] + tolerance, item['x2']
+        y1, y2, x2_max = item['y1'] - tolerance_y, item['y2'] + tolerance_y, item['x2']
         result = {'text': item['text']}
         next_column = []
         next_x = None
         column_number = 1
+        first_letter_found = False
 
         for annotation in annotations:
             vertices = annotation.get('boundingPoly', {}).get('vertices', [])
@@ -117,7 +114,10 @@ def find_in_all_x(json_data, data, tolerance=8):
             if y1 <= y_min and y_max <= y2 and x_min > x2_max and x_min <= max_x:
                 if description == '$':
                     continue
-                elif next_x is None or x_min <= next_x + 10:
+                elif not first_letter_found and description.isalpha():
+                    result['text'] += ' ' + description
+                    first_letter_found = True
+                elif next_x is None or x_min <= next_x + tolerance_x:
                     next_column.append(description)
                     next_x = x_min
                 else:
@@ -201,3 +201,43 @@ def agroup_duplicated_names(data: list[dict]):
     result = [[{"Name": name}, *members] for name, members in grouped_data.items() if len(members) > 1]
     logger.debug(f'Grouped data: {result}')
     return result
+
+# search for the name of the company in the json data
+def find_company_name(json_data, coords, tolerance_x=6, tolerance_y=6):
+    logger.info(f'Finding the name of the company in the json data')
+    annotations = json_data.get('textAnnotations', [])[1:]
+    company_name = []
+
+    x1, x2 = coords['x1'], coords['x2']
+
+    for annotation in annotations:
+        vertices = annotation.get('boundingPoly', {}).get('vertices', [])
+        x_coords, _ = extract_coordinates(vertices)
+        x_min, x_max = min(x_coords), max(x_coords)
+        description = annotation.get('description', '')
+
+        if (x1 - tolerance_x / 2) <= x_min and x_max <= (x2 + tolerance_x):
+            company_name.append(description) 
+
+    logger.debug(f'Company name: {company_name}')
+    return company_name
+
+def clean_company_name(company_name: list[str]):
+    logger.info(f'Cleaning the company name')
+    excluded_words = ['Attachment', 'Employee', 'Retention', 'Credit']
+    numeric = re.compile(r'\d')
+    single_letter = re.compile(r'^[a-zA-Z]$')
+    clean_words = []
+
+    for chunk in company_name:
+        logger.debug(f'Processing chunk: {chunk}')
+        if chunk in excluded_words:
+            continue
+        if numeric.search(chunk):
+            break
+        if single_letter.search(chunk):
+            continue
+        clean_words.append(chunk) 
+        logger.debug(f'Clean words: {clean_words}')
+
+    return ' '.join(clean_words)

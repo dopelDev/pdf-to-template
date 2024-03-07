@@ -49,10 +49,10 @@ def main(file, responses_path, images_path):
            with open(file, 'r') as f:
                json_data = json.load(f)
            if first_iteration:
-               words = ['Employee', 'Retention', 'Credit']
+               words = ['Employee', 'Retention', 'credit']
                coords = proc_json.find_coordinates(json_data, words)
-               inc_name = proc_json.find_in_all_y(json_data, coords)
-               company_name = get_company_name(inc_name)
+               company_name = proc_json.find_company_name(json_data, coords) 
+               company_name = proc_json.clean_company_name(company_name)
                print(f'company_name: {company_name}')
    
                first_iteration = False

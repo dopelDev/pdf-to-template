@@ -3,11 +3,51 @@ from google.oauth2 import service_account
 import os
 import glob
 import re
+import cv2
+import numpy as np
 from time import sleep
 
 # Set the environment variable for Google Cloud credentials
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = f'{os.getcwd()}/cosmic-octane-402721-14cfb94c3c72.json'
 credentials_path = os.environ['GOOGLE_APPLICATION_CREDENTIALS']
+
+import cv2
+import numpy as np
+import os
+
+def correct_skew(image_path):
+    """Corrects the skew of an image given a path to the image."""
+    # Load the image in grayscale
+    image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
+    if image is None:
+        raise FileNotFoundError(f"Image could not be loaded: {image_path}")
+
+    # Detect edges in the image
+    edges = cv2.Canny(image, 50, 150, apertureSize=3)
+
+    # Use Hough transform to find lines in the image
+    lines = cv2.HoughLinesP(edges, 1, np.pi / 180, 100, minLineLength=100, maxLineGap=10)
+
+    # If no lines were found, return the original image
+    if lines is None:
+        print("No lines found for skew correction.")
+        return image_path
+
+    # Calculate the average angle of the lines
+    angles = [np.arctan2(y2 - y1, x2 - x1) * 180. / np.pi for x1, y1, x2, y2 in lines[:, 0]]
+    median_angle = np.median(angles)
+
+    # Rotate the image to correct the skew
+    height, width = image.shape
+    center = (width / 2, height / 2)
+    rotation_matrix = cv2.getRotationMatrix2D(center, median_angle, 1)
+    corrected_image = cv2.warpAffine(image, rotation_matrix, (width, height), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REPLICATE)
+
+    # Save the corrected image
+    corrected_image_path = os.path.splitext(image_path)[0] + '_corrected.png'
+    cv2.imwrite(corrected_image_path, corrected_image)
+
+    return corrected_image_path
 
 def ocr_processing(cre, image_dir, dest_path, pdf_name):
     # Get all the images in the directory
@@ -26,6 +66,9 @@ def ocr_processing(cre, image_dir, dest_path, pdf_name):
         os.makedirs(final_dest_path)
 
     for i, image_path in enumerate(image_files):
+            # Correct the skew of the image
+        image_path = correct_skew(image_path)
+
         try:
             # Load the credentials and create a Cloud Vision API client
             credentials = service_account.Credentials.from_service_account_file(cre)
@@ -35,6 +78,7 @@ def ocr_processing(cre, image_dir, dest_path, pdf_name):
             # Ensure the image file exists
             if not os.path.exists(image_path):
                 raise FileNotFoundError(f"File not found: {image_path}")
+
 
             # Load the image from the specified file
             with open(image_path, 'rb') as image_file:
