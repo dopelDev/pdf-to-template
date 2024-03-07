@@ -17,11 +17,11 @@ def ocr_processing(cre, image_dir, dest_path, pdf_name):
     pdf_name_without_ext = os.path.splitext(os.path.basename(pdf_name))[0]
 
     # Create the final directory based on the PDF name and within it, a 'response' subdirectory
-    final_dest_path = os.path.join(dest_path, pdf_name_without_ext)
+    final_dest_path = os.path.join(dest_path, pdf_name_without_ext, 'from_OCR_' + pdf_name_without_ext)
     print(f"final_dest_path: {final_dest_path}")
     print(f"image_dir: {image_dir}")
     print(f"image_files: {image_files}")
-    print(f"pdf_name: {pdf_name}")
+    print(f"pdf_name: {final_dest_path}/{pdf_name}")
     if not os.path.exists(final_dest_path):
         os.makedirs(final_dest_path)
 
@@ -55,7 +55,7 @@ def ocr_processing(cre, image_dir, dest_path, pdf_name):
             image_name_without_ext = re.sub(r'\d+$', '', os.path.splitext(os.path.basename(image_path))[0])
 
             # Append the index to the filename to maintain uniqueness and save it in the 'response' subdirectory
-            json_file_path = os.path.join(final_dest_path, f'{image_name_without_ext}{i}.json')
+            json_file_path = os.path.join(final_dest_path ,f'{image_name_without_ext}{i}.json')
             with open(json_file_path, 'w') as json_file:
                 json_file.write(response_json)
 
