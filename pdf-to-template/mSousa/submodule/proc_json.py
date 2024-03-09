@@ -1,6 +1,8 @@
 import re
 from .logger import build_logger
 import os
+import json
+import pandas as pd
 path = os.path.dirname(os.path.abspath(__file__))
 
 # initialize logger
@@ -241,3 +243,47 @@ def clean_company_name(company_name: list[str]):
         logger.debug(f'Clean words: {clean_words}')
 
     return ' '.join(clean_words)
+
+# Convert the json data to a data frame and return it like a json
+def json_to_dataframe_and_transform(json_data):
+    # Convertir JSON a DataFrame
+    df = pd.DataFrame(json_data)
+    
+    # Crear un nuevo DataFrame para los datos transformados
+    transformed_data = []
+    
+    # Nombre de la compañía
+    company_name = df.iloc[0]['Company name']
+    
+    # Iterar sobre las filas del DataFrame original, excluyendo la primera fila que es el nombre de la compañía
+    for _, row in df.iloc[1:].iterrows():
+        # Diccionario para los datos transformados de esta fila
+        transformed_row = {'Company name': company_name, 'Employee Name': row['text']}
+        
+        # Iterar sobre cada conjunto de 3 columnas para cada trimestre
+        for i in range(1, 22, 3):  # de 1 a 21 en pasos de 3 para los 7 trimestres
+            quarter = (i - 1) // 3 + 1
+            quarter_data = {
+                'Total Wage': row.get(f'column{i}', 'N/A'),
+                'Qualified Wage': row.get(f'column{i+1}', 'N/A'),
+                'ERC Credit': row.get(f'column{i+2}', 'N/A')
+            }
+            transformed_row[f'Q{quarter}'] = quarter_data
+        
+        # La columna 22 es el total general
+        transformed_row['Total'] = row.get('column22', 'N/A')  # Asumiendo que el total está en la columna 22
+        
+        transformed_data.append(transformed_row)
+
+    # para control
+    transformed_df = pd.DataFrame(transformed_data)
+    print("Transformed DataFrame:\n", transformed_df)
+    
+    # para control 
+    transformed_json_str = json.dumps(transformed_data, indent=4)
+    print("Transformed JSON:\n", transformed_json_str)
+
+    return transformed_data
+
+
+

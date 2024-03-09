@@ -63,12 +63,10 @@ def show_results():
         processed_folder = os.path.join(app.config['RESPONSE_FOLDER'], os.path.splitext(filename)[0], 'processed')
         results_filepath = os.path.join(processed_folder, filename)
         with open(results_filepath, 'r') as f:
+            # Directamente cargar y agregar los datos al dataset
             datasets.append(json.load(f))
+
     return render_template('report.html', datasets=datasets)
-
-if __name__ == '__main__':
-    app.run(debug=True)
-
 
 
 def allowed_file(filename):

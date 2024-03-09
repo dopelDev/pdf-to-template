@@ -14,8 +14,9 @@ def processing_data(file, responses_path, images_path):
     if not os.path.exists(f"{responses_path}"):
         os.makedirs(f"{responses_path}")
     call_to_ocr.ocr_processing(credentials_file, images_path, f"{responses_path}/", pdf_name)
+    processing_json = []
     final_json = []
-
+    
     if os.path.exists(f"{responses_path}/{pdf_name}/from_OCR_{pdf_name}"):
         json_files = glob.glob(f"{responses_path}/{pdf_name}/from_OCR_{pdf_name}/*.json")
         json_files.sort(key=os.path.getsize, reverse=True)
@@ -38,15 +39,17 @@ def processing_data(file, responses_path, images_path):
                 all_columns = proc_json.find_in_all_x(json_data, names)
                 company_info = {'Company name': company_name}
                 all_columns.insert(0, company_info)
-                final_json = all_columns
-            else:
+                processing_json = all_columns
+            else:  
                 words = ['DocuSign', 'Envelope']
                 coords = proc_json.find_coordinates(json_data, words)
                 names = proc_json.find_in_all_y(json_data, coords)
                 names = proc_json.transform_structure(names)
                 all_columns = proc_json.find_in_all_x(json_data, names)
-                final_json.extend(all_columns)
-
+                processing_json.extend(all_columns)
+  
+        print(processing_json)
+        final_json = proc_json.json_to_dataframe_and_transform(processing_json) 
         with open(f'{responses_path}/{pdf_name}/extructure.json', 'w') as f:
             json.dump(final_json, f, indent=4)
 
