@@ -3,6 +3,7 @@ from .logger import build_logger
 import os
 import json
 import pandas as pd
+import numpy as np
 path = os.path.dirname(os.path.abspath(__file__))
 
 # initialize logger
@@ -89,7 +90,7 @@ def transform_structure(all_rows):
 
 # Find all text annotations in the json data that are to the right of a certain X coordinate and between two Y coordinates
 # receive a structured json data
-def find_in_all_x(json_data, data, tolerance_x=12, tolerance_y=12):
+def find_in_all_x(json_data, names_coords, tolerance_x=12, tolerance_y=12):
     logger.info(f'Finding text annotations to the right of a certain X coordinate')
     annotations = json_data.get('textAnnotations', [])[1:]
     results = []
@@ -97,7 +98,7 @@ def find_in_all_x(json_data, data, tolerance_x=12, tolerance_y=12):
     # Find the maximum X value in the annotations
     max_x = max(max(vertex.get('x', 0) for vertex in annotation.get('boundingPoly', {}).get('vertices', [{}])) for annotation in annotations)
 
-    for item in data:
+    for item in names_coords:
         logger.debug(f'Processing item: {item["text"]}')
         y1, y2, x2_max = item['y1'] - tolerance_y, item['y2'] + tolerance_y, item['x2']
         result = {'text': item['text']}
@@ -174,6 +175,7 @@ def check_rows_lenght_then_process(result: dict):
 
 # Check if the rows have the same Names or Last Names and return them into a single list of dictionaries (for issues report)
 # receive a strcutured json data
+# --LEGACY--
 def agroup_duplicated_names(data: list[dict]):
     logger.info('Checking if the rows have the same First Names or Last Names and return them into a single list of dictionaries')
     grouped_data = {}
@@ -203,6 +205,8 @@ def agroup_duplicated_names(data: list[dict]):
     result = [[{"Name": name}, *members] for name, members in grouped_data.items() if len(members) > 1]
     logger.debug(f'Grouped data: {result}')
     return result
+
+# --LEGACY--
 
 # search for the name of the company in the json data
 def find_company_name(json_data, coords, tolerance_x=6, tolerance_y=6):
@@ -274,16 +278,49 @@ def json_to_dataframe_and_transform(json_data):
         transformed_row['Total'] = row.get('column22', 'N/A')  # Asumiendo que el total está en la columna 22
         
         transformed_data.append(transformed_row)
-
-    # para control
-    transformed_df = pd.DataFrame(transformed_data)
-    print("Transformed DataFrame:\n", transformed_df)
     
-    # para control 
-    transformed_json_str = json.dumps(transformed_data, indent=4)
-    print("Transformed JSON:\n", transformed_json_str)
-
+    # Convertir la lista de diccionarios a un DataFrame
+    transformed_df = pd.DataFrame(transformed_data)
     return transformed_data
 
+# work a dataframe 
+def merge_dataframes():
+    # Merge the two dataframes
+    pass
 
+# Work a dataframe to find the duplicated names
+def find_family_names():
+    pass
 
+# Work a dataframe to fix the PPP Reduction row
+def fix_ppp_reduction(json_data):
+    for data in json_data:
+        if data.get('Employee Name') == 'PPP Reduction':
+            # Inicializar all_data como una lista plana de los valores deseados
+            all_data = []
+            for key, value in data.items():
+                if 'Q' in key:
+                    all_data.extend([
+                        value['Total Wage'], value['Qualified Wage'], value['ERC Credit']
+                    ])
+
+            # Filtrar None para evitar errores con np.nan
+            all_data = [x for x in all_data if x is not None]
+
+            index_of_all_data = 0  # Índice para iterar sobre all_data
+
+            # Iterar sobre las entradas 'Q'
+            for q_key in [f'Q{value}' for value in range(1, 8)]:  # Asumiendo que hay 7 entradas 'Q'
+                if q_key in data:
+                    # Establecer 'Total Wage' a np.nan
+                    data[q_key]['Total Wage'] = np.nan
+
+                    # Asignar nuevos valores a 'Qualified Wage' y 'ERC Credit' desde all_data
+                    for sub_key in ['Qualified Wage', 'ERC Credit']:
+                        if index_of_all_data < len(all_data):
+                            data[q_key][sub_key] = all_data[index_of_all_data]
+                            index_of_all_data += 1
+                        else:
+                            break  # Salir si no hay más datos en all_data para asignar
+
+    return json_data

@@ -48,8 +48,9 @@ def processing_data(file, responses_path, images_path):
                 all_columns = proc_json.find_in_all_x(json_data, names)
                 processing_json.extend(all_columns)
   
-        print(processing_json)
         final_json = proc_json.json_to_dataframe_and_transform(processing_json) 
+        ppp_fixed = proc_json.fix_ppp_reduction(final_json)
+        final_json = ppp_fixed
         with open(f'{responses_path}/{pdf_name}/extructure.json', 'w') as f:
             json.dump(final_json, f, indent=4)
 

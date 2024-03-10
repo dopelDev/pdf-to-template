@@ -9,10 +9,9 @@ app.config['SECRET_KEY'] = 'secret'
 app.config['UPLOAD_FOLDER'] = './pdf_directory'  # Actualiza esto con la ruta donde quieres guardar los archivos
 app.config['IMAGES_FOLDER'] = './images'  # Actualiza esto con la ruta donde quieres guardar las imagenes
 app.config['RESPONSE_FOLDER'] = './responses'  # Actualiza esto con la ruta donde quieres guardar las respuestas
+# tengo que pasar la verficacion a un modulo
 if not os.path.exists(app.config['UPLOAD_FOLDER']):
     os.makedirs(app.config['UPLOAD_FOLDER'])
-
-from flask import session
 
 @app.route('/', methods=['GET', 'POST'])
 def upload_file():
