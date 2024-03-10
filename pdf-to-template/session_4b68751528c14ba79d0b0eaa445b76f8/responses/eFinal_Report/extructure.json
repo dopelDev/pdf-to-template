@@ -1,0 +1,2242 @@
+[
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Subtotal",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 221,315.53",
+            "Qualified Wage": "$ 193,380.90",
+            "ERC Credit": "$ 135,366.63"
+        },
+        "Q6": {
+            "Total Wage": "$ 238,744.18",
+            "Qualified Wage": "$ 114,597.21",
+            "ERC Credit": "$ 80,218.04"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 307,978.10"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "PPP Reduction",
+        "Q1": {
+            "Total Wage": NaN,
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": NaN,
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": NaN,
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": NaN,
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": NaN,
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": NaN,
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": NaN,
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": NaN
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Total Wage",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 221,315.53",
+            "Qualified Wage": "$ 193,380.90",
+            "ERC Credit": "$ 135,366.63"
+        },
+        "Q6": {
+            "Total Wage": "$ 238,744.18",
+            "Qualified Wage": "$ 114,597.21",
+            "ERC Credit": "$ 80,218.04"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": NaN
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "N / A",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 0.00"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Baker , Jack D",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 6,004.40",
+            "Qualified Wage": "$ 5,944.36",
+            "ERC Credit": "$ 4,161.05"
+        },
+        "Q6": {
+            "Total Wage": "$ 5,804.65",
+            "Qualified Wage": "$ 2,786.23",
+            "ERC Credit": "$ 1,950.36"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 8,730.59"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Boyd , Elijah S",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 7,571.10",
+            "Qualified Wage": "$ 7,495.39",
+            "ERC Credit": "$ 5,246.77"
+        },
+        "Q6": {
+            "Total Wage": "$ 2,103.80",
+            "Qualified Wage": "$ 1,009.82",
+            "ERC Credit": "$ 706.88"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 8,505.21"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Brush , Gabriel S",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 3,577.32",
+            "Qualified Wage": "$ 3,541.55",
+            "ERC Credit": "$ 2,479.08"
+        },
+        "Q6": {
+            "Total Wage": "$ 4,577.31",
+            "Qualified Wage": "$ 2,197.11",
+            "ERC Credit": "$ 1,537.98"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 5,738.66"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Burgos , Felix L",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 4,619.45",
+            "Qualified Wage": "$ 4,573.26",
+            "ERC Credit": "$ 3,201.28"
+        },
+        "Q6": {
+            "Total Wage": "$ 5,537.50",
+            "Qualified Wage": "$ 2,658.00",
+            "ERC Credit": "$ 1,860.60"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 7,231.26"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Burris , Zach Lee",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 16,586.17",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 17,426.66",
+            "Qualified Wage": "$ 8,364.80",
+            "ERC Credit": "$ 5,855.36"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 18,364.80"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Christman , Adam Patrick",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 12,408.50",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 11,694.40",
+            "Qualified Wage": "$ 5,613.31",
+            "ERC Credit": "$ 3,929.32"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 15,613.31"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Collier , Dakota J.O",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 3,915.93",
+            "Qualified Wage": "$ 3,876.77",
+            "ERC Credit": "$ 2,713.74"
+        },
+        "Q6": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 3,876.77"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Creed , Paul C",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 5,456.34",
+            "Qualified Wage": "$ 5,401.78",
+            "ERC Credit": "$ 3,781.24"
+        },
+        "Q6": {
+            "Total Wage": "$ 8,140.80",
+            "Qualified Wage": "$ 3,907.58",
+            "ERC Credit": "$ 2,735.31"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 9,309.36"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Cross , Andrew L",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 2,082.58",
+            "Qualified Wage": "$ 2,061.75",
+            "ERC Credit": "$ 1,443.23"
+        },
+        "Q6": {
+            "Total Wage": "$ 275.32",
+            "Qualified Wage": "$ 132.15",
+            "ERC Credit": "$ 92.51"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 2,193.91"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Dohme , Bradley J",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 1,215.10",
+            "Qualified Wage": "$ 1,202.95",
+            "ERC Credit": "$ 842.06"
+        },
+        "Q6": {
+            "Total Wage": "$ 4,364.48",
+            "Qualified Wage": "$ 2,094.95",
+            "ERC Credit": "$ 1,466.47"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 3,297.90"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Dupps , Zachary R",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 210.85",
+            "Qualified Wage": "$ 208.74",
+            "ERC Credit": "$ 146.12"
+        },
+        "Q6": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 208.74"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Frederick , Thatcher H",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 2,606.00",
+            "Qualified Wage": "$ 2,579.94",
+            "ERC Credit": "$ 1,805.96"
+        },
+        "Q6": {
+            "Total Wage": "$ 3,655.37",
+            "Qualified Wage": "$ 1,754.58",
+            "ERC Credit": "$ 1,228.20"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 4,334.52"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Greggs , DeRafeal L",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 4,566.18",
+            "Qualified Wage": "$ 4,520.52",
+            "ERC Credit": "$ 3,164.36"
+        },
+        "Q6": {
+            "Total Wage": "$ 5,661.46",
+            "Qualified Wage": "$ 2,717.50",
+            "ERC Credit": "$ 1,902.25"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 7,238.02"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Grote , Nathan K",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 6,516.85",
+            "Qualified Wage": "$ 6,451.68",
+            "ERC Credit": "$ 4,516.18"
+        },
+        "Q6": {
+            "Total Wage": "$ 8,537.64",
+            "Qualified Wage": "$ 4,098.07",
+            "ERC Credit": "$ 2,868.65"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 10,549.75"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Guise , Robert M",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 3,681.27",
+            "Qualified Wage": "$ 3,644.46",
+            "ERC Credit": "$ 2,551.12"
+        },
+        "Q6": {
+            "Total Wage": "$ 769.68",
+            "Qualified Wage": "$ 369.45",
+            "ERC Credit": "$ 258.61"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 4,013.90"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Hasan , Alhamoud M",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 336.81",
+            "Qualified Wage": "$ 333.44",
+            "ERC Credit": "$ 233.41"
+        },
+        "Q6": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 333.44"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Hibbard , Nathaniel C.",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 5,332.39",
+            "Qualified Wage": "$ 5,279.07",
+            "ERC Credit": "$ 3,695.35"
+        },
+        "Q6": {
+            "Total Wage": "$ 3,615.27",
+            "Qualified Wage": "$ 1,735.33",
+            "ERC Credit": "$ 1,214.73"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 7,014.40"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Hollowell , Matthew R",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 4,395.64",
+            "Qualified Wage": "$ 4,351.68",
+            "ERC Credit": "$ 3,046.18"
+        },
+        "Q6": {
+            "Total Wage": "$ 6,715.57",
+            "Qualified Wage": "$ 3,223.47",
+            "ERC Credit": "$ 2,256.43"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 7,575.16"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Holmes , Wyatt E",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 3,309.26",
+            "Qualified Wage": "$ 3,276.17",
+            "ERC Credit": "$ 2,293.32"
+        },
+        "Q6": {
+            "Total Wage": "$ 4,699.99",
+            "Qualified Wage": "$ 2,256.00",
+            "ERC Credit": "$ 1,579.20"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 5,532.16"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Jackson , James",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 6,241.66",
+            "Qualified Wage": "$ 6,179.24",
+            "ERC Credit": "$ 4,325.47"
+        },
+        "Q6": {
+            "Total Wage": "$ 6,911.96",
+            "Qualified Wage": "$ 3,317.74",
+            "ERC Credit": "$ 2,322.42"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 9,496.98"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Jewell , Alec W",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 4,348.04",
+            "Qualified Wage": "$ 4,304.56",
+            "ERC Credit": "$ 3,013.19"
+        },
+        "Q6": {
+            "Total Wage": "$ 4,874.32",
+            "Qualified Wage": "$ 2,339.67",
+            "ERC Credit": "$ 1,637.77"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 6,644.23"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Koenig , Ryan",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 1,566.41",
+            "Qualified Wage": "$ 1,550.75",
+            "ERC Credit": "$ 1,085.52"
+        },
+        "Q6": {
+            "Total Wage": "$ 661.38",
+            "Qualified Wage": "$ 317.46",
+            "ERC Credit": "$ 222.22"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 1,868.21"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Masminster , Caleb J",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 5,276.66",
+            "Qualified Wage": "$ 5,223.89",
+            "ERC Credit": "$ 3,656.73"
+        },
+        "Q6": {
+            "Total Wage": "$ 6,611.72",
+            "Qualified Wage": "$ 3,173.63",
+            "ERC Credit": "$ 2,221.54"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 8,397.52"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Morgan , Mitchell J",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 5,645.05",
+            "Qualified Wage": "$ 5,588.60",
+            "ERC Credit": "$ 3,912.02"
+        },
+        "Q6": {
+            "Total Wage": "$ 6,094.59",
+            "Qualified Wage": "$ 2,925.40",
+            "ERC Credit": "$ 2,047.78"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 8,514.00"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Obermeyer , Grant M",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 4,331.75",
+            "Qualified Wage": "$ 4,288.43",
+            "ERC Credit": "$ 3,001.90"
+        },
+        "Q6": {
+            "Total Wage": "$ 4,919.90",
+            "Qualified Wage": "$ 2,361.55",
+            "ERC Credit": "$ 1,653.09"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 6,649.98"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "O'Sullivan , Nicholas A",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 523.78",
+            "Qualified Wage": "$ 518.54",
+            "ERC Credit": "$ 362.98"
+        },
+        "Q6": {
+            "Total Wage": "$ 3,182.84",
+            "Qualified Wage": "$ 1,527.76",
+            "ERC Credit": "$ 1,069.43"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 2,046.31"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Rich , Joshua F",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 9,482.71",
+            "Qualified Wage": "$ 9,387.88",
+            "ERC Credit": "$ 6,571.52"
+        },
+        "Q6": {
+            "Total Wage": "$ 11,874.50",
+            "Qualified Wage": "$ 5,699.76",
+            "ERC Credit": "$ 3,989.83"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 15,087.64"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Roberts , Jadelynn Ann",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 1,141.15",
+            "Qualified Wage": "$ 1,129.74",
+            "ERC Credit": "$ 790.82"
+        },
+        "Q6": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 1,129.74"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Ross , John N",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 6,908.09",
+            "Qualified Wage": "$ 6,839.01",
+            "ERC Credit": "$ 4,787.31"
+        },
+        "Q6": {
+            "Total Wage": "$ 9,902.95",
+            "Qualified Wage": "$ 4,753.42",
+            "ERC Credit": "$ 3,327.39"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 11,592.43"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Russo , Anthony C",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 2,936.68",
+            "Qualified Wage": "$ 2,907.31",
+            "ERC Credit": "$ 2,035.12"
+        },
+        "Q6": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 2,907.31"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Schlabach III , Anthony Craig",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 5,395.22",
+            "Qualified Wage": "$ 5,341.27",
+            "ERC Credit": "$ 3,738.89"
+        },
+        "Q6": {
+            "Total Wage": "$ 7,199.76",
+            "Qualified Wage": "$ 3,455.88",
+            "ERC Credit": "$ 2,419.12"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 8,797.15"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Semrad , Austin W",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 2,586.38",
+            "Qualified Wage": "$ 2,560.52",
+            "ERC Credit": "$ 1,792.36"
+        },
+        "Q6": {
+            "Total Wage": "$ 4,152.14",
+            "Qualified Wage": "$ 1,993.03",
+            "ERC Credit": "$ 1,395.12"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 4,553.54"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "St. John , Chase W",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 371.34",
+            "Qualified Wage": "$ 367.63",
+            "ERC Credit": "$ 257.34"
+        },
+        "Q6": {
+            "Total Wage": "$ 3,315.19",
+            "Qualified Wage": "$ 1,591.29",
+            "ERC Credit": "$ 1,113.90"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 1,958.92"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Steele , Adam T",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 5,714.14",
+            "Qualified Wage": "$ 5,657.00",
+            "ERC Credit": "$ 3,959.90"
+        },
+        "Q6": {
+            "Total Wage": "$ 6,604.41",
+            "Qualified Wage": "$ 3,170.12",
+            "ERC Credit": "$ 2,219.08"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 8,827.12"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Surine , Justin D",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 12,527.16",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 14,627.51",
+            "Qualified Wage": "$ 7,021.20",
+            "ERC Credit": "$ 4,914.84"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 17,021.20"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Taggart , Kevin D",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 12,276.56",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 10,000.00"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Thomas , Myles D",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 2,555.25",
+            "Qualified Wage": "$ 2,529.70",
+            "ERC Credit": "$ 1,770.79"
+        },
+        "Q6": {
+            "Total Wage": "$ 2,247.70",
+            "Qualified Wage": "$ 1,078.90",
+            "ERC Credit": "$ 755.23"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 3,608.59"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Tilley , Jerami",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 22,687.95",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 17,194.31",
+            "Qualified Wage": "$ 8,253.27",
+            "ERC Credit": "$ 5,777.29"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 18,253.27"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Tracey , Cody J",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 7,180.91",
+            "Qualified Wage": "$ 7,109.10",
+            "ERC Credit": "$ 4,976.37"
+        },
+        "Q6": {
+            "Total Wage": "$ 3,158.72",
+            "Qualified Wage": "$ 1,516.19",
+            "ERC Credit": "$ 1,061.33"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 8,625.29"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Wilson , Christopher L",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 7,226.50",
+            "Qualified Wage": "$ 7,154.24",
+            "ERC Credit": "$ 5,007.96"
+        },
+        "Q6": {
+            "Total Wage": "$ 11,467.62",
+            "Qualified Wage": "$ 5,504.46",
+            "ERC Credit": "$ 3,853.12"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 12,658.69"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Alhamoud , Hasan M",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 4,777.51",
+            "Qualified Wage": "$ 2,293.20",
+            "ERC Credit": "$ 1,605.24"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 2,293.20"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Bjurstrom , Jacob B",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 3,570.91",
+            "Qualified Wage": "$ 1,714.04",
+            "ERC Credit": "$ 1,199.83"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 1,714.04"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Brewster , Christian A",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 59.76",
+            "Qualified Wage": "$ 28.68",
+            "ERC Credit": "$ 20.08"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 28.68"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Butler , Jacob A",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 2,031.76",
+            "Qualified Wage": "$ 975.24",
+            "ERC Credit": "$ 682.67"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 975.24"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Dickerson , Cory K",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 842.85",
+            "Qualified Wage": "$ 404.57",
+            "ERC Credit": "$ 283.20"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 404.57"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Halpin , Matthew B",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 3,108.95",
+            "Qualified Wage": "$ 1,492.30",
+            "ERC Credit": "$ 1,044.61"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 1,492.30"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Hand , Kyle N",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 644.58",
+            "Qualified Wage": "$ 309.40",
+            "ERC Credit": "$ 216.58"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 309.40"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Kenniv , Benjamin J",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 1,516.70",
+            "Qualified Wage": "$ 728.02",
+            "ERC Credit": "$ 509.61"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 728.02"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Lewis , Savannah J",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 2,749.80",
+            "Qualified Wage": "$ 1,319.90",
+            "ERC Credit": "$ 923.93"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 1,319.90"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Norris , Matthew I",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 302.29",
+            "Qualified Wage": "$ 145.10",
+            "ERC Credit": "$ 101.57"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 145.10"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "Smith , Derrick N",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 557.65",
+            "Qualified Wage": "$ 267.67",
+            "ERC Credit": "$ 187.37"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 267.67"
+    },
+    {
+        "Company name": "Lubex Inc",
+        "Employee Name": "N / A No Orders",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 0.00"
+    }
+]
