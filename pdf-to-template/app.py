@@ -1,6 +1,7 @@
 from flask import Flask, request, redirect, url_for, render_template, session, g
 import os
 import json
+from mSousa.submodule.proc_json import merge_dataframes
 from werkzeug.utils import secure_filename
 import uuid
 from flask_session import Session
@@ -40,13 +41,13 @@ def allowed_file(filename):
 def upload_file():
     session['processed_files'] = []
     data = None
+    merged_data = None
     multiple_files = None
     if request.method == 'POST':
         files = request.files.getlist('file')
         if not files or files[0].filename == '':
             return "No selected files", 400
         
-        print(f'From App: {files} \nType: {type(files)}')
         pdf_directories_files = []
         
         allowed_files = None 
@@ -63,11 +64,10 @@ def upload_file():
 
         if allowed_files:
             for index, file in enumerate(files):
-                print(f'FROM APP: {pdf_directories_files[index]}')   
                 file.save(pdf_directories_files[index])
 
-            data, multiple_files = mSousa_main(pdf_directories_files, g.response_folder, g.images_folder)
-        session['total_results'] = data 
+            data, multiple_files, merged_data = mSousa_main(pdf_directories_files, g.response_folder, g.images_folder)
+        session['total_results'] = data, merged_data 
 
         return redirect(url_for('show_results',multiple_files=multiple_files ))
 
@@ -75,11 +75,13 @@ def upload_file():
 
 @app.route('/results', methods=['GET'])
 def show_results():
-    data = session.get('total_results', None)
+    data, merge_data = session.get('total_results', None)
     multiple_files = request.args.get('multiple_files', 'False') == 'True'
-    print(f'Multiple Files: ', type(multiple_files))
+    type_multiple_files = type(merge_data)
+
+    print(f'FROM APP.PY: {type_multiple_files}')
     if multiple_files:
-        return render_template('report_multiply.html', datasets=data)
+        return render_template('report_multiply.html', datasets=data, merged_data=merge_data)
     else:
         return render_template('report.html', datasets=data)
 

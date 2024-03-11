@@ -1,0 +1,5202 @@
+[
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Subtotal",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 884,051.29",
+            "Qualified Wage": "$ 779,347.37",
+            "ERC Credit": "$ 545,543.16"
+        },
+        "Q6": {
+            "Total Wage": "$ 992,205.29",
+            "Qualified Wage": "$ 473,458.52",
+            "ERC Credit": "$ 331,420.96"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 1,252,805.88"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "PPP Reduction",
+        "Q1": {
+            "Total Wage": NaN,
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": NaN,
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": NaN,
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": NaN,
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": NaN,
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": NaN,
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": NaN,
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": NaN
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Total Wage",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 884,051.29",
+            "Qualified Wage": "$ 779,347.37",
+            "ERC Credit": "$ 545,543.16"
+        },
+        "Q6": {
+            "Total Wage": "$ 992,205.29",
+            "Qualified Wage": "$ 473,458.52",
+            "ERC Credit": "$ 331,420.96"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": NaN
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "N / A",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 0.00"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Akers , Kevin A",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 7,834.84",
+            "Qualified Wage": "$ 7,756.49",
+            "ERC Credit": "$ 5,429.54"
+        },
+        "Q6": {
+            "Total Wage": "$ 8,525.84",
+            "Qualified Wage": "$ 4,092.40",
+            "ERC Credit": "$ 2,864.68"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 11,848.89"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Alcorn , Michael R.",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 3,550.34",
+            "Qualified Wage": "$ 3,514.84",
+            "ERC Credit": "$ 2,460.39"
+        },
+        "Q6": {
+            "Total Wage": "$ 15,957.35",
+            "Qualified Wage": "$ 7,659.53",
+            "ERC Credit": "$ 5,361.67"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 11,174.36"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Alkire III , Yauncy",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 10,311.65",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 636.06",
+            "Qualified Wage": "$ 305.31",
+            "ERC Credit": "$ 213.72"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 10,305.31"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Baker , Alana M",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 5,003.41",
+            "Qualified Wage": "$ 4,953.38",
+            "ERC Credit": "$ 3,467.36"
+        },
+        "Q6": {
+            "Total Wage": "$ 6,143.29",
+            "Qualified Wage": "$ 2,948.78",
+            "ERC Credit": "$ 2,064.15"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 7,902.16"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Bandy , Donald Lee",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 8,738.19",
+            "Qualified Wage": "$ 8,650.81",
+            "ERC Credit": "$ 6,055.57"
+        },
+        "Q6": {
+            "Total Wage": "$ 12,763.20",
+            "Qualified Wage": "$ 6,126.34",
+            "ERC Credit": "$ 4,288.44"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 14,777.14"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Bandy , Shane M",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 7,058.63",
+            "Qualified Wage": "$ 6,988.04",
+            "ERC Credit": "$ 4,891.63"
+        },
+        "Q6": {
+            "Total Wage": "$ 10,494.10",
+            "Qualified Wage": "$ 5,037.17",
+            "ERC Credit": "$ 3,526.02"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 12,025.21"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Batista , Andy G",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 3,699.84",
+            "Qualified Wage": "$ 3,662.84",
+            "ERC Credit": "$ 2,563.99"
+        },
+        "Q6": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 3,662.84"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Bedgood III , Billie L",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 6,389.37",
+            "Qualified Wage": "$ 6,325.48",
+            "ERC Credit": "$ 4,427.83"
+        },
+        "Q6": {
+            "Total Wage": "$ 8,090.27",
+            "Qualified Wage": "$ 3,883.33",
+            "ERC Credit": "$ 2,718.33"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 10,208.81"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Bensel , Anthony R",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 23,423.13",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 21,250.06",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 20,000.00"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Benson , Phillip A",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 5,778.18",
+            "Qualified Wage": "$ 5,720.40",
+            "ERC Credit": "$ 4,004.28"
+        },
+        "Q6": {
+            "Total Wage": "$ 7,090.15",
+            "Qualified Wage": "$ 3,403.27",
+            "ERC Credit": "$ 2,382.29"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 9,123.67"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Booher , James M",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 7,763.86",
+            "Qualified Wage": "$ 7,686.22",
+            "ERC Credit": "$ 5,380.35"
+        },
+        "Q6": {
+            "Total Wage": "$ 13,114.29",
+            "Qualified Wage": "$ 6,294.86",
+            "ERC Credit": "$ 4,406.40"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 13,981.08"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Bowman III , Marvin C",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 7,075.72",
+            "Qualified Wage": "$ 7,004.96",
+            "ERC Credit": "$ 4,903.47"
+        },
+        "Q6": {
+            "Total Wage": "$ 11,299.51",
+            "Qualified Wage": "$ 5,423.76",
+            "ERC Credit": "$ 3,796.64"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 12,428.73"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Brown , Desmond L",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 3,038.30",
+            "Qualified Wage": "$ 3,007.92",
+            "ERC Credit": "$ 2,105.54"
+        },
+        "Q6": {
+            "Total Wage": "$ 470.80",
+            "Qualified Wage": "$ 225.98",
+            "ERC Credit": "$ 158.19"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 3,233.90"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Burns , Stephen J",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 6,786.10",
+            "Qualified Wage": "$ 6,718.24",
+            "ERC Credit": "$ 4,702.77"
+        },
+        "Q6": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 6,718.24"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Burosh , Joseph A",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 1,498.58",
+            "Qualified Wage": "$ 1,483.59",
+            "ERC Credit": "$ 1,038.52"
+        },
+        "Q6": {
+            "Total Wage": "$ 1,873.53",
+            "Qualified Wage": "$ 899.29",
+            "ERC Credit": "$ 629.51"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 2,382.89"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Bush Sr. , Barry L",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 9,352.66",
+            "Qualified Wage": "$ 9,259.13",
+            "ERC Credit": "$ 6,481.39"
+        },
+        "Q6": {
+            "Total Wage": "$ 9,554.63",
+            "Qualified Wage": "$ 4,586.22",
+            "ERC Credit": "$ 3,210.36"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 13,845.36"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Butrum , Devon L",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 8,538.10",
+            "Qualified Wage": "$ 8,452.72",
+            "ERC Credit": "$ 5,916.90"
+        },
+        "Q6": {
+            "Total Wage": "$ 7,089.22",
+            "Qualified Wage": "$ 3,402.83",
+            "ERC Credit": "$ 2,381.98"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 11,855.54"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Byrd , Richard Alan",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 10,905.68",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 16,269.17",
+            "Qualified Wage": "$ 7,809.20",
+            "ERC Credit": "$ 5,466.44"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 17,809.20"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Campbell , Shawn D",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 9,637.32",
+            "Qualified Wage": "$ 9,540.95",
+            "ERC Credit": "$ 6,678.66"
+        },
+        "Q6": {
+            "Total Wage": "$ 2,546.76",
+            "Qualified Wage": "$ 1,222.44",
+            "ERC Credit": "$ 855.71"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 10,763.39"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Caster , Kyler N",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 2,238.03",
+            "Qualified Wage": "$ 2,215.65",
+            "ERC Credit": "$ 1,550.95"
+        },
+        "Q6": {
+            "Total Wage": "$ 10,085.43",
+            "Qualified Wage": "$ 4,841.01",
+            "ERC Credit": "$ 3,388.70"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 7,056.66"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Chamberlin , Joseph L",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 30,034.86",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 10,605.38",
+            "Qualified Wage": "$ 5,090.58",
+            "ERC Credit": "$ 3,563.41"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 15,090.58"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Clark , Robert A",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 16,719.20",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 16,026.49",
+            "Qualified Wage": "$ 7,692.72",
+            "ERC Credit": "$ 5,384.90"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 17,692.72"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Collins , Matthew R",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 12,327.19",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 14,491.70",
+            "Qualified Wage": "$ 6,956.02",
+            "ERC Credit": "$ 4,869.21"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 16,956.02"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Cook , Christopher D",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 6,104.32",
+            "Qualified Wage": "$ 6,043.28",
+            "ERC Credit": "$ 4,230.29"
+        },
+        "Q6": {
+            "Total Wage": "$ 8,333.57",
+            "Qualified Wage": "$ 4,000.11",
+            "ERC Credit": "$ 2,800.08"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 10,043.39"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Corwin , Jessie A",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 12,066.84",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 12,394.41",
+            "Qualified Wage": "$ 5,949.32",
+            "ERC Credit": "$ 4,164.52"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 15,949.32"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Cosner , Daniel A",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 4,697.26",
+            "Qualified Wage": "$ 4,650.29",
+            "ERC Credit": "$ 3,255.20"
+        },
+        "Q6": {
+            "Total Wage": "$ 7,691.88",
+            "Qualified Wage": "$ 3,692.10",
+            "ERC Credit": "$ 2,584.47"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 8,342.39"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Cowherd , Shawn S",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 7,759.50",
+            "Qualified Wage": "$ 7,681.91",
+            "ERC Credit": "$ 5,377.33"
+        },
+        "Q6": {
+            "Total Wage": "$ 5,320.24",
+            "Qualified Wage": "$ 2,553.72",
+            "ERC Credit": "$ 1,787.60"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 10,235.62"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Creason , Donald G",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 7,895.48",
+            "Qualified Wage": "$ 7,816.53",
+            "ERC Credit": "$ 5,471.57"
+        },
+        "Q6": {
+            "Total Wage": "$ 14,023.38",
+            "Qualified Wage": "$ 6,731.22",
+            "ERC Credit": "$ 4,711.86"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 14,547.75"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Cunningham , Tommy J",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 9,440.27",
+            "Qualified Wage": "$ 9,345.87",
+            "ERC Credit": "$ 6,542.11"
+        },
+        "Q6": {
+            "Total Wage": "$ 11,187.80",
+            "Qualified Wage": "$ 5,370.14",
+            "ERC Credit": "$ 3,759.10"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 14,716.01"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Dale , Chad R",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 6,942.96",
+            "Qualified Wage": "$ 6,873.53",
+            "ERC Credit": "$ 4,811.47"
+        },
+        "Q6": {
+            "Total Wage": "$ 5,639.86",
+            "Qualified Wage": "$ 2,707.13",
+            "ERC Credit": "$ 1,894.99"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 9,580.66"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Delano , Zachary T",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 9,402.42",
+            "Qualified Wage": "$ 9,308.40",
+            "ERC Credit": "$ 6,515.88"
+        },
+        "Q6": {
+            "Total Wage": "$ 9,990.97",
+            "Qualified Wage": "$ 4,795.67",
+            "ERC Credit": "$ 3,356.97"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 14,104.06"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Delph , Dylan M",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 1,265.50",
+            "Qualified Wage": "$ 1,252.85",
+            "ERC Credit": "$ 876.99"
+        },
+        "Q6": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 1,252.85"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Dildine , Joseph A",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 3,753.00",
+            "Qualified Wage": "$ 3,715.47",
+            "ERC Credit": "$ 2,600.83"
+        },
+        "Q6": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 3,715.47"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Dollens , Jayden M",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 1,215.09",
+            "Qualified Wage": "$ 1,202.94",
+            "ERC Credit": "$ 842.06"
+        },
+        "Q6": {
+            "Total Wage": "$ 1,131.02",
+            "Qualified Wage": "$ 542.89",
+            "ERC Credit": "$ 380.02"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 1,745.83"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Donaldson Jr. , Scott D",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 7,839.12",
+            "Qualified Wage": "$ 7,760.73",
+            "ERC Credit": "$ 5,432.51"
+        },
+        "Q6": {
+            "Total Wage": "$ 8,514.92",
+            "Qualified Wage": "$ 4,087.16",
+            "ERC Credit": "$ 2,861.01"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 11,847.89"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Donaldson Sr. , Scott D",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 9,625.30",
+            "Qualified Wage": "$ 9,529.05",
+            "ERC Credit": "$ 6,670.33"
+        },
+        "Q6": {
+            "Total Wage": "$ 10,348.51",
+            "Qualified Wage": "$ 4,967.28",
+            "ERC Credit": "$ 3,477.10"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 14,496.33"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Fitzpatrick , Brian E",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 8,035.42",
+            "Qualified Wage": "$ 7,955.07",
+            "ERC Credit": "$ 5,568.55"
+        },
+        "Q6": {
+            "Total Wage": "$ 10,552.08",
+            "Qualified Wage": "$ 5,065.00",
+            "ERC Credit": "$ 3,545.50"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 13,020.06"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Fleener , Robert Dale",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 3,524.18",
+            "Qualified Wage": "$ 3,488.94",
+            "ERC Credit": "$ 2,442.26"
+        },
+        "Q6": {
+            "Total Wage": "$ 15,619.31",
+            "Qualified Wage": "$ 7,497.27",
+            "ERC Credit": "$ 5,248.09"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 10,986.21"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Foster , Charles E",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 7,302.48",
+            "Qualified Wage": "$ 7,229.46",
+            "ERC Credit": "$ 5,060.62"
+        },
+        "Q6": {
+            "Total Wage": "$ 8,709.21",
+            "Qualified Wage": "$ 4,180.42",
+            "ERC Credit": "$ 2,926.29"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 11,409.88"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Gilbertson , Shawn M",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 10,587.28",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 15,441.89",
+            "Qualified Wage": "$ 7,412.11",
+            "ERC Credit": "$ 5,188.48"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 17,412.11"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Giles , Larry L",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 6,966.30",
+            "Qualified Wage": "$ 6,896.64",
+            "ERC Credit": "$ 4,827.65"
+        },
+        "Q6": {
+            "Total Wage": "$ 7,968.09",
+            "Qualified Wage": "$ 3,824.68",
+            "ERC Credit": "$ 2,677.28"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 10,721.32"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Gillum , Breanna R",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 7,089.95",
+            "Qualified Wage": "$ 7,019.05",
+            "ERC Credit": "$ 4,913.34"
+        },
+        "Q6": {
+            "Total Wage": "$ 9,207.25",
+            "Qualified Wage": "$ 4,419.48",
+            "ERC Credit": "$ 3,093.64"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 11,438.53"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Gilman , Phillip L",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 3,284.56",
+            "Qualified Wage": "$ 3,251,71",
+            "ERC Credit": "$ 2,276.20"
+        },
+        "Q6": {
+            "Total Wage": "$ 9,097.88",
+            "Qualified Wage": "$ 4,366.98",
+            "ERC Credit": "$ 3,056.89"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 7,618.70"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Gray , Christopher",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 3,286.92",
+            "Qualified Wage": "$ 3,254.05",
+            "ERC Credit": "$ 2,277.84"
+        },
+        "Q6": {
+            "Total Wage": "$ 2,323.68",
+            "Qualified Wage": "$ 1,115.37",
+            "ERC Credit": "$ 780.76"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 4,369.42"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Gregg , James R",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 9,037.02",
+            "Qualified Wage": "$ 8,946.65",
+            "ERC Credit": "$ 6,262.65"
+        },
+        "Q6": {
+            "Total Wage": "$ 12,030.96",
+            "Qualified Wage": "$ 5,774.86",
+            "ERC Credit": "$ 4,042.40"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 14,721.51"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Groce , Kevin Lee",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 12,516.09",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 11,116.48",
+            "Qualified Wage": "$ 5,335.91",
+            "ERC Credit": "$ 3,735.14"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 15,335.91"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Gunn , Niccolas W",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 3,795.05",
+            "Qualified Wage": "$ 3,757.10",
+            "ERC Credit": "$ 2,629.97"
+        },
+        "Q6": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 3,757.10"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Harris , Anthony L",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 10,957.57",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 11,711.69",
+            "Qualified Wage": "$ 5,621.61",
+            "ERC Credit": "$ 3,935.13"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 15,621.61"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Heffren , Norm A",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 23,301.08",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 17,457.21",
+            "Qualified Wage": "$ 8,379.46",
+            "ERC Credit": "$ 5,865.62"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 18,379.46"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Hicks , Ryan A",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 2,647.01",
+            "Qualified Wage": "$ 2,620.54",
+            "ERC Credit": "$ 1,834.38"
+        },
+        "Q6": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 2,620.54"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Hines , Michael R",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 11,587.35",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 13,699.79",
+            "Qualified Wage": "$ 6,575.90",
+            "ERC Credit": "$ 4,603.13"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 16,575.90"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Hoene , Gaven J",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 739.80",
+            "Qualified Wage": "$ 732.40",
+            "ERC Credit": "$ 512.68"
+        },
+        "Q6": {
+            "Total Wage": "$ 3,736.79",
+            "Qualified Wage": "$ 1,793.66",
+            "ERC Credit": "$ 1,255.56"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 2,526.06"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Howard , Joseph B",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 7,004.90",
+            "Qualified Wage": "$ 6,934.85",
+            "ERC Credit": "$ 4,854.40"
+        },
+        "Q6": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 6,934.85"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Ireland , Michael D",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 6,236.88",
+            "Qualified Wage": "$ 6,174.51",
+            "ERC Credit": "$ 4,322.16"
+        },
+        "Q6": {
+            "Total Wage": "$ 7,162.95",
+            "Qualified Wage": "$ 3,438.22",
+            "ERC Credit": "$ 2,406.75"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 9,612.73"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "James , Jeffrey A",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 13,126.19",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 15,008.27",
+            "Qualified Wage": "$ 7,203.97",
+            "ERC Credit": "$ 5,042.78"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 17,203.97"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Johnson , David A",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 14,002.35",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 18,159.78",
+            "Qualified Wage": "$ 8,716.69",
+            "ERC Credit": "$ 6,101.69"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 18,716.69"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Johnson , Jacquan D",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 6,321.45",
+            "Qualified Wage": "$ 6,258.24",
+            "ERC Credit": "$ 4,380.76"
+        },
+        "Q6": {
+            "Total Wage": "$ 6,191.80",
+            "Qualified Wage": "$ 2,972.06",
+            "ERC Credit": "$ 2,080.44"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 9,230.30"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Julian , Brandon M",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 5,607.99",
+            "Qualified Wage": "$ 5,551.91",
+            "ERC Credit": "$ 3,886.34"
+        },
+        "Q6": {
+            "Total Wage": "$ 5,175.16",
+            "Qualified Wage": "$ 2,484.08",
+            "ERC Credit": "$ 1,738.85"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 8,035.99"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Kegeris , Riley J",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 7,508.69",
+            "Qualified Wage": "$ 7,433.60",
+            "ERC Credit": "$ 5,203.52"
+        },
+        "Q6": {
+            "Total Wage": "$ 8,608.09",
+            "Qualified Wage": "$ 4,131.88",
+            "ERC Credit": "$ 2,892.32"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 11,565.49"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Knop , Colin R",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 3,322.09",
+            "Qualified Wage": "$ 3,288.87",
+            "ERC Credit": "$ 2,302.21"
+        },
+        "Q6": {
+            "Total Wage": "$ 5,377.54",
+            "Qualified Wage": "$ 2,581.22",
+            "ERC Credit": "$ 1,806.85"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 5,870.09"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Lawson , Clint R",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 5,676.78",
+            "Qualified Wage": "$ 5,620.01",
+            "ERC Credit": "$ 3,934.01"
+        },
+        "Q6": {
+            "Total Wage": "$ 5,754.79",
+            "Qualified Wage": "$ 2,762.30",
+            "ERC Credit": "$ 1,933.61"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 8,382.31"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Ledoux Jr. , Richard L",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 5,342.27",
+            "Qualified Wage": "$ 5,288.85",
+            "ERC Credit": "$ 3,702.19"
+        },
+        "Q6": {
+            "Total Wage": "$ 5,852.57",
+            "Qualified Wage": "$ 2,809.23",
+            "ERC Credit": "$ 1,966.46"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 8,098.08"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Maichle , Robert W",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 9,932.20",
+            "Qualified Wage": "$ 9,832.88",
+            "ERC Credit": "$ 6,883.01"
+        },
+        "Q6": {
+            "Total Wage": "$ 4,006.37",
+            "Qualified Wage": "$ 1,923.06",
+            "ERC Credit": "$ 1,346.14"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 11,755.94"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Martin , Stephen R",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 5,273.50",
+            "Qualified Wage": "$ 5,220.77",
+            "ERC Credit": "$ 3,654.54"
+        },
+        "Q6": {
+            "Total Wage": "$ 5,809.82",
+            "Qualified Wage": "$ 2,788.71",
+            "ERC Credit": "$ 1,952.10"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 8,009.48"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Masters , Franklin A",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 6,858.33",
+            "Qualified Wage": "$ 6,789.75",
+            "ERC Credit": "$ 4,752.82"
+        },
+        "Q6": {
+            "Total Wage": "$ 9,296.63",
+            "Qualified Wage": "$ 4,462.38",
+            "ERC Credit": "$ 3,123.67"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 11,252.13"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "McIntyre , David Allen",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 7,293.23",
+            "Qualified Wage": "$ 7,220.30",
+            "ERC Credit": "$ 5,054.21"
+        },
+        "Q6": {
+            "Total Wage": "$ 8,503.56",
+            "Qualified Wage": "$ 4,081.71",
+            "ERC Credit": "$ 2,857.20"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 11,302.01"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "McKee , Johnathan M",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 6,107.10",
+            "Qualified Wage": "$ 6,046.03",
+            "ERC Credit": "$ 4,232.22"
+        },
+        "Q6": {
+            "Total Wage": "$ 7,432.86",
+            "Qualified Wage": "$ 3,567.77",
+            "ERC Credit": "$ 2,497.44"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 9,613.80"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "McKnight , Michael P.",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 8,772.32",
+            "Qualified Wage": "$ 8,684.60",
+            "ERC Credit": "$ 6,079.22"
+        },
+        "Q6": {
+            "Total Wage": "$ 9,921.76",
+            "Qualified Wage": "$ 4,762.44",
+            "ERC Credit": "$ 3,333.71"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 13,447.04"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Miller Jr. , John A",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 6,017.49",
+            "Qualified Wage": "$ 5,957.32",
+            "ERC Credit": "$ 4,170.12"
+        },
+        "Q6": {
+            "Total Wage": "$ 6,550.82",
+            "Qualified Wage": "$ 3,144.39",
+            "ERC Credit": "$ 2,201.08"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 9,101.71"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Miller , Steven P",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 4,545.06",
+            "Qualified Wage": "$ 4,499.61",
+            "ERC Credit": "$ 3,149.73"
+        },
+        "Q6": {
+            "Total Wage": "$ 5,694.32",
+            "Qualified Wage": "$ 2,733.27",
+            "ERC Credit": "$ 1,913.29"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 7,232.88"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Moeller , Cole T",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 8,954.28",
+            "Qualified Wage": "$ 8,864.74",
+            "ERC Credit": "$ 6,205.32"
+        },
+        "Q6": {
+            "Total Wage": "$ 9,880.00",
+            "Qualified Wage": "$ 4,742.40",
+            "ERC Credit": "$ 3,319.68"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 13,607.14"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Napier , Steven Douglas",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 8,816.89",
+            "Qualified Wage": "$ 8,728.72",
+            "ERC Credit": "$ 6,110.10"
+        },
+        "Q6": {
+            "Total Wage": "$ 13,434.12",
+            "Qualified Wage": "$ 6,448.38",
+            "ERC Credit": "$ 4,513.86"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 15,177.10"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Neibold , John G",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 18,751.91",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 17,493.10",
+            "Qualified Wage": "$ 8,396.69",
+            "ERC Credit": "$ 5,877.68"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 18,396.69"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Neikirk , David F",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 13,955.95",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 15,479.75",
+            "Qualified Wage": "$ 7,430.28",
+            "ERC Credit": "$ 5,201.20"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 17,430.28"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Neville , Matthew S",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 297.60",
+            "Qualified Wage": "$ 294.62",
+            "ERC Credit": "$ 206.24"
+        },
+        "Q6": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 294.62"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "O'Connor , Brianna S",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 10,353.46",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 10,430.26",
+            "Qualified Wage": "$ 5,006.52",
+            "ERC Credit": "$ 3,504.57"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 15,006.52"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Osborne , Robert D",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 7,727.56",
+            "Qualified Wage": "$ 7,650.28",
+            "ERC Credit": "$ 5,355.20"
+        },
+        "Q6": {
+            "Total Wage": "$ 9,672.14",
+            "Qualified Wage": "$ 4,642.63",
+            "ERC Credit": "$ 3,249.84"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 12,292.91"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Perdue , Darin W",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 2,704.68",
+            "Qualified Wage": "$ 2,677.63",
+            "ERC Credit": "$ 1,874.34"
+        },
+        "Q6": {
+            "Total Wage": "$ 1,525.15",
+            "Qualified Wage": "$ 732.07",
+            "ERC Credit": "$ 512.45"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 3,409.71"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Peters , Ryan S",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 14,776.68",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 16,287.92",
+            "Qualified Wage": "$ 7,818.20",
+            "ERC Credit": "$ 5,472.74"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 17,818.20"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Petrarca , Franklin L",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 1,908.84",
+            "Qualified Wage": "$ 1,889.75",
+            "ERC Credit": "$ 1,322.83"
+        },
+        "Q6": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 1,889.75"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Pope , Monalito A",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 9,572.40",
+            "Qualified Wage": "$ 9,476.68",
+            "ERC Credit": "$ 6,633.67"
+        },
+        "Q6": {
+            "Total Wage": "$ 10,743.41",
+            "Qualified Wage": "$ 5,156.84",
+            "ERC Credit": "$ 3,609.79"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 14,633.51"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Powell , Andrew S",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 5,749.51",
+            "Qualified Wage": "$ 5,692.01",
+            "ERC Credit": "$ 3,984.41"
+        },
+        "Q6": {
+            "Total Wage": "$ 9,082.61",
+            "Qualified Wage": "$ 4,359.65",
+            "ERC Credit": "$ 3,051.76"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 10,051.67"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Preston , Matthew R",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 7,511.33",
+            "Qualified Wage": "$ 7,436.22",
+            "ERC Credit": "$ 5,205.35"
+        },
+        "Q6": {
+            "Total Wage": "$ 9,343.28",
+            "Qualified Wage": "$ 4,484.77",
+            "ERC Credit": "$ 3,139.34"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 11,920.99"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Rabideau , Steven Thomas",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 8,647.27",
+            "Qualified Wage": "$ 8,560.80",
+            "ERC Credit": "$ 5,992.56"
+        },
+        "Q6": {
+            "Total Wage": "$ 10,432.88",
+            "Qualified Wage": "$ 5,007.78",
+            "ERC Credit": "$ 3,505.45"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 13,568.58"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Raines , Harold Douglas",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 9,280.33",
+            "Qualified Wage": "$ 9,187.53",
+            "ERC Credit": "$ 6,431.27"
+        },
+        "Q6": {
+            "Total Wage": "$ 10,383.36",
+            "Qualified Wage": "$ 4,984.01",
+            "ERC Credit": "$ 3,488.81"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 14,171.54"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Ramey , Michael D",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 6,063.47",
+            "Qualified Wage": "$ 6,002.84",
+            "ERC Credit": "$ 4,201.98"
+        },
+        "Q6": {
+            "Total Wage": "$ 9,375.46",
+            "Qualified Wage": "$ 4,500.22",
+            "ERC Credit": "$ 3,150.15"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 10,503.06"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Robinson , Victor G",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 8,451.24",
+            "Qualified Wage": "$ 8,366.73",
+            "ERC Credit": "$ 5,856.71"
+        },
+        "Q6": {
+            "Total Wage": "$ 9,003.51",
+            "Qualified Wage": "$ 4,321.68",
+            "ERC Credit": "$ 3,025.18"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 12,688.41"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Rodas , Ricardo D",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 6,425.26",
+            "Qualified Wage": "$ 6,361.01",
+            "ERC Credit": "$ 4,452.71"
+        },
+        "Q6": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 6,361.01"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Roembke , Timothy Lynn",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 11,582.94",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 14,917.46",
+            "Qualified Wage": "$ 7,160.38",
+            "ERC Credit": "$ 5,012.27"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 17,160.38"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Romig , Micah D",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 12,400.81",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 13,267.46",
+            "Qualified Wage": "$ 6,368.38",
+            "ERC Credit": "$ 4,457.87"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 16,368.38"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Roundtree , Jaz Z",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 10,180.14",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 3,249.66",
+            "Qualified Wage": "$ 1,559.84",
+            "ERC Credit": "$ 1,091.89"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 11,559.84"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Rowland , Andrew S",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 9,046.07",
+            "Qualified Wage": "$ 8,955.61",
+            "ERC Credit": "$ 6,268.93"
+        },
+        "Q6": {
+            "Total Wage": "$ 12,457.50",
+            "Qualified Wage": "$ 5,979.60",
+            "ERC Credit": "$ 4,185.72"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 14,935.21"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Saravia , Edgar A",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 8,600.76",
+            "Qualified Wage": "$ 8,514.75",
+            "ERC Credit": "$ 5,960.33"
+        },
+        "Q6": {
+            "Total Wage": "$ 11,816.99",
+            "Qualified Wage": "$ 5,672.16",
+            "ERC Credit": "$ 3,970.51"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 14,186.91"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Sawyer , Donnie L",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 3,116.04",
+            "Qualified Wage": "$ 3,084.88",
+            "ERC Credit": "$ 2,159.42"
+        },
+        "Q6": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 3,084.88"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Sawyer , Joshua M",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 8,437.51",
+            "Qualified Wage": "$ 8,353.13",
+            "ERC Credit": "$ 5,847.19"
+        },
+        "Q6": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 8,353.13"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Schutt , Jaden",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 3,671.59",
+            "Qualified Wage": "$ 3,634.87",
+            "ERC Credit": "$ 2,544.41"
+        },
+        "Q6": {
+            "Total Wage": "$ 4,614.74",
+            "Qualified Wage": "$ 2,215.08",
+            "ERC Credit": "$ 1,550.55"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 5,849.95"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Sechrest , Christopher L",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 400.00",
+            "Qualified Wage": "$ 396.00",
+            "ERC Credit": "$ 277.20"
+        },
+        "Q6": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 396.00"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Short Jr. , Charles F",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 11,926.09",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 10,000.00"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Smith , John A",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 6,989.94",
+            "Qualified Wage": "$ 6,920.04",
+            "ERC Credit": "$ 4,844.03"
+        },
+        "Q6": {
+            "Total Wage": "$ 10,192.98",
+            "Qualified Wage": "$ 4,892.63",
+            "ERC Credit": "$ 3,424.84"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 11,812.67"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Spurr Jr. , Kevin T",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 1,500.00",
+            "Qualified Wage": "$ 1,485.00",
+            "ERC Credit": "$ 1,039.50"
+        },
+        "Q6": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 1,485.00"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Stinnett , Steven M",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 8,938.95",
+            "Qualified Wage": "$ 8,849.56",
+            "ERC Credit": "$ 6,194.69"
+        },
+        "Q6": {
+            "Total Wage": "$ 9,872.29",
+            "Qualified Wage": "$ 4,738.70",
+            "ERC Credit": "$ 3,317.09"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 13,588.26"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Thacker , Maxwell E",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 4,127.88",
+            "Qualified Wage": "$ 4,086.60",
+            "ERC Credit": "$ 2,860.62"
+        },
+        "Q6": {
+            "Total Wage": "$ 4,170.43",
+            "Qualified Wage": "$ 2,001.81",
+            "ERC Credit": "$ 1,401.26"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 6,088.41"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Thompson , Jeremy D",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 9,414.47",
+            "Qualified Wage": "$ 9,320.33",
+            "ERC Credit": "$ 6,524.23"
+        },
+        "Q6": {
+            "Total Wage": "$ 12,353.89",
+            "Qualified Wage": "$ 5,929.87",
+            "ERC Credit": "$ 4,150.91"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 15,250.19"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Todd , Joseph P",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 9,426.78",
+            "Qualified Wage": "$ 9,332.51",
+            "ERC Credit": "$ 6,532.76"
+        },
+        "Q6": {
+            "Total Wage": "$ 14,549.97",
+            "Qualified Wage": "$ 6,983.99",
+            "ERC Credit": "$ 4,888.79"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 16,316.50"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Virk , Harman S",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 8,541.77",
+            "Qualified Wage": "$ 8,456.35",
+            "ERC Credit": "$ 5,919.45"
+        },
+        "Q6": {
+            "Total Wage": "$ 9,987.88",
+            "Qualified Wage": "$ 4,794.18",
+            "ERC Credit": "$ 3,355.93"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 13,250.53"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Warner , Ralph E",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 2,304.06",
+            "Qualified Wage": "$ 2,281.02",
+            "ERC Credit": "$ 1,596.71"
+        },
+        "Q6": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 2,281.02"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Wetzel , Donald L",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 10,169.09",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 10,000.00"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Wilkerson , Adam C",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 7,905.62",
+            "Qualified Wage": "$ 7,826.56",
+            "ERC Credit": "$ 5,478.59"
+        },
+        "Q6": {
+            "Total Wage": "$ 10,786.22",
+            "Qualified Wage": "$ 5,177.39",
+            "ERC Credit": "$ 3,624.17"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 13,003.95"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Wilkerson , Andrew E",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 8,650.07",
+            "Qualified Wage": "$ 8,563.57",
+            "ERC Credit": "$ 5,994.50"
+        },
+        "Q6": {
+            "Total Wage": "$ 10,764.08",
+            "Qualified Wage": "$ 5,166.76",
+            "ERC Credit": "$ 3,616.73"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 13,730.33"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Williams , Nathaniel C.",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 2,398.14",
+            "Qualified Wage": "$ 2,374.16",
+            "ERC Credit": "$ 1,661.91"
+        },
+        "Q6": {
+            "Total Wage": "$ 6,231.00",
+            "Qualified Wage": "$ 2,990.88",
+            "ERC Credit": "$ 2,093.62"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 5,365.04"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Wilson , Magnus F",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 7,038.03",
+            "Qualified Wage": "$ 6,967.65",
+            "ERC Credit": "$ 4,877.35"
+        },
+        "Q6": {
+            "Total Wage": "$ 6,090.69",
+            "Qualified Wage": "$ 2,923.53",
+            "ERC Credit": "$ 2,046.47"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 9,891.18"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Windle , Tracy A",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 4,726.32",
+            "Qualified Wage": "$ 4,679.06",
+            "ERC Credit": "$ 3,275.34"
+        },
+        "Q6": {
+            "Total Wage": "$ 5,120.18",
+            "Qualified Wage": "$ 2,457.69",
+            "ERC Credit": "$ 1,720.38"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 7,136.74"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Zo , Biak Nun",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 13,292.44",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 17,108.25",
+            "Qualified Wage": "$ 8,211.96",
+            "ERC Credit": "$ 5,748.37"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 18,211.96"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Archer , Kyle A",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 10,329.88",
+            "Qualified Wage": "$ 4,958.34",
+            "ERC Credit": "$ 3,470.84"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 4,958.34"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Becker , Talyan J",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 3,163.44",
+            "Qualified Wage": "$ 1,518.45",
+            "ERC Credit": "$ 1,062.92"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 1,518.45"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Bianchi , Dominic",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 1,619.24",
+            "Qualified Wage": "$ 777.24",
+            "ERC Credit": "$ 544.06"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 777.24"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Childers , Joseph E",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 26,249.99",
+            "Qualified Wage": "$ 10,000.00",
+            "ERC Credit": "$ 7,000.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 10,000.00"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Eldridge , Carter D",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 2,532.24",
+            "Qualified Wage": "$ 1,215.48",
+            "ERC Credit": "$ 850.83"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 1,215.48"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Ford Jr. , Michael L",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 3,295.71",
+            "Qualified Wage": "$ 1,581.94",
+            "ERC Credit": "$ 1,107.36"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 1,581.94"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Hess , Luke R",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 1,703.13",
+            "Qualified Wage": "$ 817.50",
+            "ERC Credit": "$ 572.25"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 817.50"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Hodson II , David A",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 5,768.02",
+            "Qualified Wage": "$ 2,768.65",
+            "ERC Credit": "$ 1,938.05"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 2,768.65"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Holt , Cameron D",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 1,546.09",
+            "Qualified Wage": "$ 742.12",
+            "ERC Credit": "$ 519.49"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 742.12"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Kuhn , Joseph J",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 3,372.58",
+            "Qualified Wage": "$ 1,618.84",
+            "ERC Credit": "$ 1,133.19"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 1,618.84"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "Napier , Richard L",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 10,175.16",
+            "Qualified Wage": "$ 4,884.08",
+            "ERC Credit": "$ 3,418.85"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 4,884.08"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "White , Lamont J",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 198.00",
+            "Qualified Wage": "$ 95.04",
+            "ERC Credit": "$ 66.53"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 95.04"
+    },
+    {
+        "Company name": "Indy Auto Services",
+        "Employee Name": "N / A No Orders",
+        "Q1": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q2": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q3": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q4": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q5": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q6": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Q7": {
+            "Total Wage": "$ 0.00",
+            "Qualified Wage": "$ 0.00",
+            "ERC Credit": "$ 0.00"
+        },
+        "Total": "$ 0.00"
+    }
+]

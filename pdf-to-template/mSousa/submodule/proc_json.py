@@ -286,16 +286,67 @@ def json_to_dataframe_and_transform(json_data):
 
 # work a dataframe 
 def merge_dataframes(responses_path):
-    logger.info(f'Search estructured jsons in {responses_path}')
-    logger.info(f'Merging dataframes')
+    logger.info(f'Searching structured jsons in {responses_path}')
+    logger.info('Merging dataframes')
     
-    # Buscar todos los archivos JSON en la carpeta de respuestas
-    json_files = glob.glob(f"{responses_path}/**/extructure.json")
-    logger.info(f'JSON files: {json_files}')
+    # Convert monetary strings to numbers
+    def to_number(value):
+        if pd.isna(value):
+            return value  # Keep NaN as NaN
+        if value == '$ 0.00':
+            return 0  # Keep 0 as 0
+        # Remove $ and commas, then convert to float
+        return float(value.replace('$', '').replace(',', '').strip())
 
-# Work a dataframe to find the duplicated names
-def find_family_names():
-    pass
+    # Sum monetary values and convert back to monetary string format
+    def sum_monetary_values(series):
+        total = series.apply(to_number).sum()
+        if pd.isna(total):
+            return total  # Return NaN if total is NaN
+        if total == 0:
+            return '$ 0.00'  # Return '$ 0.00' if total is 0
+        return f'${total:,.2f}'  # Convert back to string in monetary format
+    
+    # Search for all JSON files in the responses folder
+    json_files = glob.glob(f"{responses_path}/**/extructure.json", recursive=True)
+    dataframes = []
+    for file in json_files:
+        with open(file, 'r') as f:
+            json_data = json.load(f)
+        logger.info(f'Processing file: {file}')
+        # Convert JSON to DataFrame and transform data
+        df = pd.DataFrame(json_data)
+        dataframes.append(df)
+    logger.info(f'JSON files: {json_files}')
+    
+    if not dataframes:
+        logger.error('No dataframes to merge.')
+        return pd.DataFrame()  # Return an empty DataFrame if there are no dataframes to merge
+    
+    # Concatenate all dataframes
+    concatenated_df = pd.concat(dataframes, ignore_index=True)
+    
+    # Sort by 'Employee Name' or any other relevant column
+    concatenated_df.sort_values(by=['Employee Name'], inplace=True)
+    
+    # Group by 'Employee Name' and aggregate using custom functions
+    logger.info('Concatenated dataframes')
+    concatenated_df.rename(columns={concatenated_df.columns[0]: 'Company Name'}, inplace=True)
+    logger.info('Renamed columns')
+    grouped_df = concatenated_df.groupby('Employee Name', as_index=False).agg({
+        'Total': sum_monetary_values,
+        'Company Name': lambda x: 'Data Merged'  # Replace company names with "Data Merged"
+        # Add more columns as needed
+    })
+    logger.info('Dataframes merged') 
+    logger.info(grouped_df)
+    # transform the dataframe to a json
+    logger.info('Dataframes transformed to json')
+    grouped_json_str = grouped_df.to_json(orient='records')
+    grouped_json = json.loads(grouped_json_str)
+    logger.info('Dataframes transformed to json')
+    logger.info(grouped_json)
+    return grouped_json
 
 # Work a dataframe to fix the PPP Reduction row
 def fix_ppp_reduction(json_data):
