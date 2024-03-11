@@ -38,53 +38,50 @@ def allowed_file(filename):
 
 @app.route('/', methods=['GET', 'POST'])
 def upload_file():
+    session['processed_files'] = []
+    data = None
+    multiple_files = None
     if request.method == 'POST':
         files = request.files.getlist('file')
         if not files or files[0].filename == '':
             return "No selected files", 400
         
         print(f'From App: {files} \nType: {type(files)}')
-        processed_files = []
-
+        pdf_directories_files = []
+        
+        allowed_files = None 
         for file in files:
             if file and allowed_file(file.filename):
-                print(f'From App File Allowed: {file.filename}')
+                allowed_files = True
                 filename = secure_filename(file.filename.replace(" ", "_"))
-                file_path = os.path.join(g.pdf_directory, filename)
-                file.save(file_path)
+                pdf_directories_files.append(os.path.join(g.pdf_directory, filename))
+            else:
+                allowed_files = False
+                break
 
-                data = mSousa_main(file_path, g.response_folder, g.images_folder)
-                json_data = json.dumps(data)
+        # Here Template for don't allow files
 
-                filename_without_ext = os.path.splitext(filename)[0]
-                processed_folder = os.path.join(g.response_folder, filename_without_ext, 'processed')
-                if not os.path.exists(processed_folder):
-                    os.makedirs(processed_folder)
+        if allowed_files:
+            for index, file in enumerate(files):
+                print(f'FROM APP: {pdf_directories_files[index]}')   
+                file.save(pdf_directories_files[index])
 
-                results_filename = filename_without_ext + '.json'
-                results_filepath = os.path.join(processed_folder, results_filename)
-                with open(results_filepath, 'w') as f:
-                    f.write(json_data)
+            data, multiple_files = mSousa_main(pdf_directories_files, g.response_folder, g.images_folder)
+        session['total_results'] = data 
 
-                processed_files.append(results_filename)
-
-        session['processed_files'] = processed_files
-        return redirect(url_for('show_results'))
+        return redirect(url_for('show_results',multiple_files=multiple_files ))
 
     return render_template('upload.html')
 
 @app.route('/results', methods=['GET'])
 def show_results():
-    json_filenames = session.get('processed_files', [])
-    datasets = []
-
-    for filename in json_filenames:
-        processed_folder = os.path.join(g.response_folder, os.path.splitext(filename)[0], 'processed')
-        results_filepath = os.path.join(processed_folder, filename)
-        with open(results_filepath, 'r') as f:
-            datasets.append(json.load(f))
-
-    return render_template('report.html', datasets=datasets)
+    data = session.get('total_results', None)
+    multiple_files = request.args.get('multiple_files', 'False') == 'True'
+    print(f'Multiple Files: ', type(multiple_files))
+    if multiple_files:
+        return render_template('report_multiply.html', datasets=data)
+    else:
+        return render_template('report.html', datasets=data)
 
 if __name__ == '__main__':
     app.run(debug=True)

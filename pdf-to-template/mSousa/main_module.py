@@ -57,15 +57,19 @@ def processing_data(file, responses_path, images_path):
     return final_json
 
 def main(input_data, responses_path, images_path):
-    if isinstance(input_data, list):
+    multiple_files = None
+    print(f'IMPORTANTE: {type(input_data)}, {len(input_data)}')
+    if len(input_data) > 1:
         final_results = []
         merge_results = []
+        multiple_files = True
         for file in input_data:
             result = processing_data(file, responses_path, images_path)
             final_results.append(result)
     else:
-        final_results = processing_data(input_data, responses_path, images_path)
+        multiple_files = False
+        final_results = processing_data(input_data[0], responses_path, images_path)
 
     proc_json.merge_dataframes(responses_path)
 
-    return final_results
+    return final_results, multiple_files
