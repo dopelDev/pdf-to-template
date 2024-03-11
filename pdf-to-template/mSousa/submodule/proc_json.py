@@ -4,6 +4,7 @@ import os
 import json
 import pandas as pd
 import numpy as np
+import glob
 path = os.path.dirname(os.path.abspath(__file__))
 
 # initialize logger
@@ -17,7 +18,7 @@ def extract_coordinates(vertices):
 
 # Find the coordinates of maximum and mínimos words in the json data
 def find_coordinates(json_data, words):
-    logger.info(f'Finding coordinates of words ' + ', '.join(words))
+    logger.debug(f'Finding coordinates of words ' + ', '.join(words))
     annotations = json_data.get('textAnnotations', [])[1:]
     min_max_coords = {'x1': None, 'x2': None, 'y1': None, 'y2': None}
 
@@ -43,7 +44,7 @@ def find_coordinates(json_data, words):
 
 # Find all Text Annotations in the json data that are below the Y coordinate of the word
 def find_in_all_y(json_data, coords, tolerance_x=16, tolerance_y=12):
-    logger.info(f'Finding text annotations below the Y coordinate of {coords}')
+    logger.debug(f'Finding text annotations below the Y coordinate of {coords}')
     annotations = json_data.get('textAnnotations', [])[1:]
     all_rows = []
     next_row = []
@@ -91,7 +92,7 @@ def transform_structure(all_rows):
 # Find all text annotations in the json data that are to the right of a certain X coordinate and between two Y coordinates
 # receive a structured json data
 def find_in_all_x(json_data, names_coords, tolerance_x=12, tolerance_y=12):
-    logger.info(f'Finding text annotations to the right of a certain X coordinate')
+    logger.debug(f'Finding text annotations to the right of a certain X coordinate')
     annotations = json_data.get('textAnnotations', [])[1:]
     results = []
 
@@ -177,7 +178,7 @@ def check_rows_lenght_then_process(result: dict):
 # receive a strcutured json data
 # --LEGACY--
 def agroup_duplicated_names(data: list[dict]):
-    logger.info('Checking if the rows have the same First Names or Last Names and return them into a single list of dictionaries')
+    logger.debug('Checking if the rows have the same First Names or Last Names and return them into a single list of dictionaries')
     grouped_data = {}
 
     for item in data:
@@ -210,7 +211,7 @@ def agroup_duplicated_names(data: list[dict]):
 
 # search for the name of the company in the json data
 def find_company_name(json_data, coords, tolerance_x=6, tolerance_y=6):
-    logger.info(f'Finding the name of the company in the json data')
+    logger.debug(f'Finding the name of the company in the json data')
     annotations = json_data.get('textAnnotations', [])[1:]
     company_name = []
 
@@ -229,7 +230,7 @@ def find_company_name(json_data, coords, tolerance_x=6, tolerance_y=6):
     return company_name
 
 def clean_company_name(company_name: list[str]):
-    logger.info(f'Cleaning the company name')
+    logger.debug(f'Cleaning the company name')
     excluded_words = ['Attachment', 'Employee', 'Retention', 'Credit']
     numeric = re.compile(r'\d')
     single_letter = re.compile(r'^[a-zA-Z]$')
@@ -284,9 +285,13 @@ def json_to_dataframe_and_transform(json_data):
     return transformed_data
 
 # work a dataframe 
-def merge_dataframes():
-    # Merge the two dataframes
-    pass
+def merge_dataframes(responses_path):
+    logger.info(f'Search estructured jsons in {responses_path}')
+    logger.info(f'Merging dataframes')
+    
+    # Buscar todos los archivos JSON en la carpeta de respuestas
+    json_files = glob.glob(f"{responses_path}/**/extructure.json")
+    logger.info(f'JSON files: {json_files}')
 
 # Work a dataframe to find the duplicated names
 def find_family_names():

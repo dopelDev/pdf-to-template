@@ -33,7 +33,7 @@ def before_request():
     g.response_folder = os.path.join(base_path, 'responses')
 
 def allowed_file(filename):
-    ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'}
+    ALLOWED_EXTENSIONS = {'pdf'}
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 @app.route('/', methods=['GET', 'POST'])
@@ -42,11 +42,13 @@ def upload_file():
         files = request.files.getlist('file')
         if not files or files[0].filename == '':
             return "No selected files", 400
-
+        
+        print(f'From App: {files} \nType: {type(files)}')
         processed_files = []
 
         for file in files:
             if file and allowed_file(file.filename):
+                print(f'From App File Allowed: {file.filename}')
                 filename = secure_filename(file.filename.replace(" ", "_"))
                 file_path = os.path.join(g.pdf_directory, filename)
                 file.save(file_path)

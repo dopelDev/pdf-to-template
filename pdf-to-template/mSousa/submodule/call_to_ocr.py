@@ -4,6 +4,13 @@ import os
 import glob
 import re
 from time import sleep
+from .logger import build_logger
+
+# Get the current directory
+path = os.path.dirname(os.path.abspath(__file__))
+
+# Set the logger
+logger = build_logger('call_to_ocr', path + '/logs')
 
 # Set the environment variable for Google Cloud credentials
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = f'{os.getcwd()}/cosmic-octane-402721-14cfb94c3c72.json'
@@ -18,10 +25,10 @@ def ocr_processing(cre, image_dir, dest_path, pdf_name):
 
     # Create the final directory based on the PDF name and within it, a 'response' subdirectory
     final_dest_path = os.path.join(dest_path, pdf_name_without_ext, 'from_OCR_' + pdf_name_without_ext)
-    print(f"final_dest_path: {final_dest_path}")
-    print(f"image_dir: {image_dir}")
-    print(f"image_files: {image_files}")
-    print(f"pdf_name: {final_dest_path}/{pdf_name}")
+    logger.info(f"Respose Directory From OCR: {final_dest_path}")
+    logger.info(f"Images Directory: {image_dir}")
+    logger.info(f"Image Files: {image_files}")
+    logger.info(f"pdf_name: {final_dest_path}/{pdf_name}")
     if not os.path.exists(final_dest_path):
         os.makedirs(final_dest_path)
 
@@ -30,7 +37,7 @@ def ocr_processing(cre, image_dir, dest_path, pdf_name):
             # Load the credentials and create a Cloud Vision API client
             credentials = service_account.Credentials.from_service_account_file(cre)
             client = vision.ImageAnnotatorClient(credentials=credentials)
-            print(f"client: {client}")
+            logger.info(f"client: {client}")
 
             # Ensure the image file exists
             if not os.path.exists(image_path):
@@ -59,10 +66,10 @@ def ocr_processing(cre, image_dir, dest_path, pdf_name):
             with open(json_file_path, 'w') as json_file:
                 json_file.write(response_json)
 
-            print(f"The credentials verification was successful for {image_path}. The API response has been saved at '{json_file_path}'.")
+            logger.info(f"The credentials verification was successful for {image_path}. The API response has been saved at '{json_file_path}'.")
         except FileNotFoundError as e:
-            print(f"Error opening the image file: {e}")
+            logger.error(f"File not found: {e}")
         except Exception as e:
-            print(f"Error verifying credentials: {e}")
+            logger.error(f"Error verifying credentials: {e}")
     sleep(1)
 

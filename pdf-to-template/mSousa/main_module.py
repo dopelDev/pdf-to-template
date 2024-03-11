@@ -59,10 +59,13 @@ def processing_data(file, responses_path, images_path):
 def main(input_data, responses_path, images_path):
     if isinstance(input_data, list):
         final_results = []
+        merge_results = []
         for file in input_data:
             result = processing_data(file, responses_path, images_path)
             final_results.append(result)
     else:
         final_results = processing_data(input_data, responses_path, images_path)
+
+    proc_json.merge_dataframes(responses_path)
 
     return final_results
