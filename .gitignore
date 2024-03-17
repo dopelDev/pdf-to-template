@@ -5,6 +5,8 @@ pdf-to-template/mSousa/submodule/logs/*
 pdf-to-template/pdf_directory/*
 pdf-to-template/responses/*
 pdf-to-template/mSousa/__pycache__/*
-pdf-to-template/mSousa/debug/*
-pdf-to-template/mSousa/*.ipynb
-pdf-to-template/mSousa/.ipynb_checkpoints/*
+pdf-to-template/debug/*
+pdf-to-template/*.ipynb
+pdf-to-template/.ipynb_checkpoints/*
+pdf-to-template/session_**/*
+pdf-to-template/.flask_session/*
