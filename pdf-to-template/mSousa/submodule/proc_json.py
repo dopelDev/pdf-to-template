@@ -308,14 +308,15 @@ def merge_dataframes(responses_path):
         return f'${total:,.2f}'  # Convert back to string in monetary format
     
     # Search for all JSON files in the responses folder
-    json_files = glob.glob(f"{responses_path}/**/extructure.json", recursive=True)
+    json_files = glob.glob(f"{responses_path}/**/structured.json", recursive=True)
     dataframes = []
-    for file in json_files:
+    for index, file in enumerate(json_files):
         with open(file, 'r') as f:
             json_data = json.load(f)
         logger.info(f'Processing file: {file}')
         # Convert JSON to DataFrame and transform data
         df = pd.DataFrame(json_data)
+        df.to_csv(f'df{index}.csv', index=False)
         dataframes.append(df)
     logger.info(f'JSON files: {json_files}')
     
@@ -325,11 +326,13 @@ def merge_dataframes(responses_path):
     
     # Concatenate all dataframes
     concatenated_df = pd.concat(dataframes, ignore_index=True)
+    concatenated_df.to_csv('concatenated_df.csv', index=False)
     
     # Sort by 'Employee Name' or any other relevant column
     concatenated_df.sort_values(by=['Employee Name'], inplace=True)
     
     # Group by 'Employee Name' and aggregate using custom functions
+    # -- LEGACY --
     logger.info('Concatenated dataframes')
     concatenated_df.rename(columns={concatenated_df.columns[0]: 'Company Name'}, inplace=True)
     logger.info('Renamed columns')
@@ -338,8 +341,10 @@ def merge_dataframes(responses_path):
         'Company Name': lambda x: 'Data Merged'  # Replace company names with "Data Merged"
         # Add more columns as needed
     })
+    # -- LEGACY --
     logger.info('Dataframes merged') 
     logger.info(grouped_df)
+    grouped_df.to_csv('grouped_df.csv', index=False)
     # transform the dataframe to a json
     logger.info('Dataframes transformed to json')
     grouped_json_str = grouped_df.to_json(orient='records')

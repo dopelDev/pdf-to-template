@@ -51,7 +51,7 @@ def processing_data(file, responses_path, images_path):
         final_json = proc_json.json_to_dataframe_and_transform(processing_json) 
         ppp_fixed = proc_json.fix_ppp_reduction(final_json)
         final_json = ppp_fixed
-        with open(f'{responses_path}/{pdf_name}/extructure.json', 'w') as f:
+        with open(f'{responses_path}/{pdf_name}/structured.json', 'w') as f:
             json.dump(final_json, f, indent=4)
 
     return final_json
