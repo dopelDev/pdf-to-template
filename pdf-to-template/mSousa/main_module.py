@@ -9,6 +9,33 @@ from .submodule import proc_pdf, call_to_ocr, proc_json
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = f'{os.getcwd()}/cosmic-octane-402721-14cfb94c3c72.json'
 credentials_file = os.environ['GOOGLE_APPLICATION_CREDENTIALS']
 
+# verificate process of the data
+
+def format_check(file):
+    if re.search(r'.pdf$', file):
+        return True
+    else:
+        return False
+
+def verficate_multiple_files(files):
+    for file in files:
+        if not format_check(file):
+            return False
+    return True
+
+def verificate_has_headers(json_data):
+    words = ['Employee', 'Retention', 'credit']
+    headers_coords = proc_json.find_coordinates(json_data, words)
+    if headers_coords:
+        return True
+    else:
+        return False
+
+# merge Company name with the rest of the data
+def merge_company_name(json_data, company_name):
+    # return json_data with company name like a dictionary in the first position
+    return json_data.insert(0, company_name) 
+
 def processing_data(file, responses_path, images_path):
     pdf_name = proc_pdf.convert_pdf_to_images(file, images_path)
     if not os.path.exists(f"{responses_path}"):

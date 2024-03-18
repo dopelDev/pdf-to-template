@@ -18,7 +18,7 @@ credentials_path = os.environ['GOOGLE_APPLICATION_CREDENTIALS']
 
 def ocr_processing(cre, image_dir, dest_path, pdf_name):
     # Get all the images in the directory
-    image_files = glob.glob(f"{image_dir}/{pdf_name}/*.png")
+    image_files = glob.glob(f"{image_dir}/*.png")
 
     # Extract the base name of the PDF and remove the extension
     pdf_name_without_ext = os.path.splitext(os.path.basename(pdf_name))[0]

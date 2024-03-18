@@ -76,22 +76,43 @@ def find_in_all_y(json_data, coords, tolerance_x=16, tolerance_y=12):
     all_rows.append(next_row)
     return all_rows
 
-# Transform the structure of the data so that each rows is a dictionary with the text and the coordinates into a single list
-def transform_structure(all_rows):
-    logger.info('Transforming structure of the data')
-    transformed = []
-    for chunk in all_rows:
-        text = ' '.join([row['text'] for row in chunk])
-        x1 = min([row['x1'] for row in chunk])
-        x2 = max([row['x2'] for row in chunk])
-        y1 = min([row['y1'] for row in chunk])
-        y2 = max([row['y2'] for row in chunk])
-        transformed.append({'text': text, 'x1': x1, 'x2': x2, 'y1': y1, 'y2': y2})
-    return transformed
-
 # Find all text annotations in the json data that are to the right of a certain X coordinate and between two Y coordinates
 # receive a structured json data
 def find_in_all_x(json_data, names_coords, tolerance_x=12, tolerance_y=12):
+    #  Check if the rows have the same length and process them
+    # receive a strcutured json data
+    def check_rows_lenght_then_process(result: dict): 
+        regex = r'\b\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2})?\b'
+        exclude_names = ['PPP Reduction', 'Total Wage']
+        if result['text'] in exclude_names:
+            logger.debug(f'return without processing: {result["text"]}')
+            return result
+        # Iterate over each item in the 'result' dictionary
+        for key in list(result.keys()):
+            # If the key starts with 'column' and the value matches the regex twice,
+            # split the value into two and add the second value to the next column
+            if key.startswith('column') and len(re.findall(regex, result[key])) == 2:
+                values = re.findall(regex, result[key])
+                next_column = 'column' + str(int(key[6:]) + 1)
+                i = None
+                if next_column in result:
+                    # If the next column already exists, shift all subsequent columns
+                    i = int(next_column[6:])
+                    while f'column{i}' in result:
+                        i += 1
+                    while i > int(next_column[6:]):
+                        result[f'column{i}'] = result[f'column{i-1}']
+                        i -= 1
+                # Make the last part of the split the previous column
+                result[key] = '$ ' + values[1]
+                # Make the previous column the second column
+                result[next_column] = result[key]
+                # Make the first part of the split the last column
+                result[f'column{i}'] = '$ ' + values[0]
+        
+        # Return the 'result' dictionary
+        return result
+    
     logger.debug(f'Finding text annotations to the right of a certain X coordinate')
     annotations = json_data.get('textAnnotations', [])[1:]
     results = []
@@ -139,115 +160,66 @@ def find_in_all_x(json_data, names_coords, tolerance_x=12, tolerance_y=12):
 
     return results
 
-#  Check if the rows have the same length and process them
-# receive a strcutured json data
-def check_rows_lenght_then_process(result: dict): 
-    regex = r'\b\d{1,3}(?:[.,]\d{3})*(?:[.,]\d{2})?\b'
-    exclude_names = ['PPP Reduction', 'Total Wage']
-    if result['text'] in exclude_names:
-        logger.debug(f'return without processing: {result["text"]}')
-        return result
-    # Iterate over each item in the 'result' dictionary
-    for key in list(result.keys()):
-        # If the key starts with 'column' and the value matches the regex twice,
-        # split the value into two and add the second value to the next column
-        if key.startswith('column') and len(re.findall(regex, result[key])) == 2:
-            values = re.findall(regex, result[key])
-            next_column = 'column' + str(int(key[6:]) + 1)
-            i = None
-            if next_column in result:
-                # If the next column already exists, shift all subsequent columns
-                i = int(next_column[6:])
-                while f'column{i}' in result:
-                    i += 1
-                while i > int(next_column[6:]):
-                    result[f'column{i}'] = result[f'column{i-1}']
-                    i -= 1
-            # Make the last part of the split the previous column
-            result[key] = '$ ' + values[1]
-            # Make the previous column the second column
-            result[next_column] = result[key]
-            # Make the first part of the split the last column
-            result[f'column{i}'] = '$ ' + values[0]
-    
-    # Return the 'result' dictionary
-    return result
-
-
-# Check if the rows have the same Names or Last Names and return them into a single list of dictionaries (for issues report)
-# receive a strcutured json data
-# --LEGACY--
-def agroup_duplicated_names(data: list[dict]):
-    logger.debug('Checking if the rows have the same First Names or Last Names and return them into a single list of dictionaries')
-    grouped_data = {}
-
-    for item in data:
-        if 'text' in item:
-            # Remove commas and split the 'text' field into parts
-            parts = item['text'].replace(',', '').split()
-            if len(parts) >= 1:
-                first_name = parts[0]  # Use the first part (name) as the key
-                # Ignore names that end with '.' or are a set of 'I' or have less than 2 characters
-                if not (first_name.endswith('.') or all(char == 'I' for char in first_name) or len(first_name) < 2):
-                    if first_name not in grouped_data:
-                        grouped_data[first_name] = []
-                    # Append the entire item to the group
-                    grouped_data[first_name].append(item)
-            if len(parts) >= 2:
-                last_name = parts[1]  # Use the second part (lastname) as the key
-                # Ignore families whose names end with '.' or are a set of 'I' or have less than 2 characters
-                if not (last_name.endswith('.') or all(char == 'I' for char in last_name) or len(last_name) < 2):
-                    if last_name not in grouped_data:
-                        grouped_data[last_name] = []
-                    # Append the entire item to the group
-                    grouped_data[last_name].append(item)
-
-    # Convert the grouped data into the desired format, only including names with more than 1 occurrence
-    result = [[{"Name": name}, *members] for name, members in grouped_data.items() if len(members) > 1]
-    logger.debug(f'Grouped data: {result}')
-    return result
-
-# --LEGACY--
+# Transform the structure of the data so that each rows is a dictionary with the text and the coordinates into a single list
+# agrouping the text of the rows
+def transform_structure(all_rows):
+    logger.info('Transforming structure of the data')
+    transformed = []
+    for chunk in all_rows:
+        text = ' '.join([row['text'] for row in chunk])
+        x1 = min([row['x1'] for row in chunk])
+        x2 = max([row['x2'] for row in chunk])
+        y1 = min([row['y1'] for row in chunk])
+        y2 = max([row['y2'] for row in chunk])
+        transformed.append({'text': text, 'x1': x1, 'x2': x2, 'y1': y1, 'y2': y2})
+    return transformed
 
 # search for the name of the company in the json data
-def find_company_name(json_data, coords, tolerance_x=6, tolerance_y=6):
-    logger.debug(f'Finding the name of the company in the json data')
-    annotations = json_data.get('textAnnotations', [])[1:]
-    company_name = []
+def get_company_name(json_data, coords):
+    
+    def find_company_name(json_data, coords, tolerance_x=6):
+        logger.debug(f'Finding the name of the company in the json data')
+        annotations = json_data.get('textAnnotations', [])[1:]
+        company_name = []
+    
+        x1, x2 = coords['x1'], coords['x2']
+    
+        for annotation in annotations:
+            vertices = annotation.get('boundingPoly', {}).get('vertices', [])
+            x_coords, _ = extract_coordinates(vertices)
+            x_min, x_max = min(x_coords), max(x_coords)
+            description = annotation.get('description', '')
+    
+            if (x1 - tolerance_x / 2) <= x_min and x_max <= (x2 + tolerance_x):
+                company_name.append(description) 
+    
+        logger.debug(f'Company name: {company_name}')
+        return company_name
+    
+    def clean_company_name(company_name: list[str]):
+        logger.debug(f'Cleaning the company name')
+        excluded_words = ['Attachment', 'Employee', 'Retention', 'Credit']
+        numeric = re.compile(r'\d')
+        single_letter = re.compile(r'^[a-zA-Z]$')
+        clean_words = []
+    
+        for chunk in company_name:
+            logger.debug(f'Processing chunk: {chunk}')
+            if chunk in excluded_words:
+                continue
+            if numeric.search(chunk):
+                break
+            if single_letter.search(chunk):
+                continue
+            clean_words.append(chunk) 
+            logger.debug(f'Clean words: {clean_words}')
+    
+        return ' '.join(clean_words)
 
-    x1, x2 = coords['x1'], coords['x2']
-
-    for annotation in annotations:
-        vertices = annotation.get('boundingPoly', {}).get('vertices', [])
-        x_coords, _ = extract_coordinates(vertices)
-        x_min, x_max = min(x_coords), max(x_coords)
-        description = annotation.get('description', '')
-
-        if (x1 - tolerance_x / 2) <= x_min and x_max <= (x2 + tolerance_x):
-            company_name.append(description) 
-
-    logger.debug(f'Company name: {company_name}')
-    return company_name
-
-def clean_company_name(company_name: list[str]):
-    logger.debug(f'Cleaning the company name')
-    excluded_words = ['Attachment', 'Employee', 'Retention', 'Credit']
-    numeric = re.compile(r'\d')
-    single_letter = re.compile(r'^[a-zA-Z]$')
-    clean_words = []
-
-    for chunk in company_name:
-        logger.debug(f'Processing chunk: {chunk}')
-        if chunk in excluded_words:
-            continue
-        if numeric.search(chunk):
-            break
-        if single_letter.search(chunk):
-            continue
-        clean_words.append(chunk) 
-        logger.debug(f'Clean words: {clean_words}')
-
-    return ' '.join(clean_words)
+    company_name = find_company_name(json_data, coords)
+    clean_name = clean_company_name(company_name)
+    dict_company_name = {'Company name': clean_name}
+    return dict_company_name
 
 # Convert the json data to a data frame and return it like a json
 def json_to_dataframe_and_transform(json_data):
