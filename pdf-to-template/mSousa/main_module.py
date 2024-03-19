@@ -40,7 +40,7 @@ def processing_data(file, responses_path, images_path):
     pdf_name = proc_pdf.convert_pdf_to_images(file, images_path)
     if not os.path.exists(f"{responses_path}"):
         os.makedirs(f"{responses_path}")
-    call_to_ocr.ocr_processing(credentials_file, images_path, f"{responses_path}/", pdf_name)
+    call_to_ocr.ocr_processing(credentials_file, f'{images_path}/{pdf_name}', f"{responses_path}/", pdf_name)
     processing_json = []
     final_json = []
     
@@ -52,11 +52,6 @@ def processing_data(file, responses_path, images_path):
             with open(file, 'r') as f:
                 json_data = json.load(f)
             if first_iteration:
-                words = ['Employee', 'Retention', 'credit']
-                coords = proc_json.find_coordinates(json_data, words)
-                company_name = proc_json.find_company_name(json_data, coords) 
-                company_name = proc_json.clean_company_name(company_name)
-
                 first_iteration = False
                 words = ["Master", "Employee", "List"]
                 coords = proc_json.find_coordinates(json_data, words)
@@ -64,8 +59,6 @@ def processing_data(file, responses_path, images_path):
                 names = proc_json.find_in_all_y(json_data, coords)
                 names = proc_json.transform_structure(names)
                 all_columns = proc_json.find_in_all_x(json_data, names)
-                company_info = {'Company name': company_name}
-                all_columns.insert(0, company_info)
                 processing_json = all_columns
             else:  
                 words = ['DocuSign', 'Envelope']
@@ -75,7 +68,8 @@ def processing_data(file, responses_path, images_path):
                 all_columns = proc_json.find_in_all_x(json_data, names)
                 processing_json.extend(all_columns)
   
-        final_json = proc_json.json_to_dataframe_and_transform(processing_json) 
+        company_name = proc_json.get_company_name(json_data)
+        final_json = proc_json.json_to_dataframe_and_transform(processing_json, company_name) 
         ppp_fixed = proc_json.fix_ppp_reduction(final_json)
         final_json = ppp_fixed
         with open(f'{responses_path}/{pdf_name}/structured.json', 'w') as f:

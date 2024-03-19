@@ -175,8 +175,10 @@ def transform_structure(all_rows):
     return transformed
 
 # search for the name of the company in the json data
-def get_company_name(json_data, coords):
-    
+def get_company_name(json_data):
+    logger.debug(f'Finding the name of the company in the json data')
+    headers = ['Employee', 'Retention', 'credit']
+    coords = find_coordinates(json_data, headers)
     def find_company_name(json_data, coords, tolerance_x=6):
         logger.debug(f'Finding the name of the company in the json data')
         annotations = json_data.get('textAnnotations', [])[1:]
@@ -218,24 +220,20 @@ def get_company_name(json_data, coords):
 
     company_name = find_company_name(json_data, coords)
     clean_name = clean_company_name(company_name)
-    dict_company_name = {'Company name': clean_name}
-    return dict_company_name
+    return clean_name 
 
 # Convert the json data to a data frame and return it like a json
-def json_to_dataframe_and_transform(json_data):
+def json_to_dataframe_and_transform(json_data, company_name):
     # Convertir JSON a DataFrame
     df = pd.DataFrame(json_data)
     
     # Crear un nuevo DataFrame para los datos transformados
     transformed_data = []
     
-    # Nombre de la compañía
-    company_name = df.iloc[0]['Company name']
-    
     # Iterar sobre las filas del DataFrame original, excluyendo la primera fila que es el nombre de la compañía
     for _, row in df.iloc[1:].iterrows():
         # Diccionario para los datos transformados de esta fila
-        transformed_row = {'Company name': company_name, 'Employee Name': row['text']}
+        transformed_row = {'Company Name': company_name, 'Employee Name': row['text']}
         
         # Iterar sobre cada conjunto de 3 columnas para cada trimestre
         for i in range(1, 22, 3):  # de 1 a 21 en pasos de 3 para los 7 trimestres
