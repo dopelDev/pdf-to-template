@@ -83,7 +83,6 @@ def show_results():
     if multiple_files:
         return render_template('report_multiply.html', datasets=data, merged_data=merge_data)
     else:
-        print(f'FROM APP.PY: {type(data)}')
         return render_template('report.html', datasets=data)
 
 if __name__ == '__main__':

@@ -44,7 +44,7 @@
             </tr>
         </thead>
         <tbody>
-            {% for row in datasets[1:] %}
+            {% for row in datasets[:] %}
                 <tr>
                     <td>{{ row['Employee Name'] }}</td>
                     {% for i in range(1, 8) %}

@@ -175,7 +175,10 @@ def transform_structure(all_rows):
     return transformed
 
 # search for the name of the company in the json data
-def get_company_name(json_data):
+def get_company_name(json_path):
+    with open(json_path, 'r') as f:
+        json_data = json.load(f)
+
     logger.debug(f'Finding the name of the company in the json data')
     headers = ['Employee', 'Retention', 'credit']
     coords = find_coordinates(json_data, headers)
