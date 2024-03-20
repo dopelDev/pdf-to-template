@@ -81,9 +81,23 @@ def sub_main(files, response_path, images_path):
 
     return jsons_path
 
-def processing_json(companies):
-    pass
-        
+# process json file transforming to dataframe and save to json_structure
+def processing_json(company, response_path):
+    json_structured_path = response_path + '/structured_json/' + company["company_name"]
+    data = proc_dataframe.json_to_dataframe_and_transform(company['columns'], company['company_name'])
+    if not os.path.exists(f'{json_structured_path}'):
+        os.makedirs(f'{json_structured_path}')
+    print(f'FROM PROCESSING JSON: saving structured_json at {json_structured_path}')
+    with open(f'{json_structured_path}/structured_json', 'w') as f:
+        json.dump(data, f, indent=4)
+
+# load structure json file and send to frontend
+def load_json_structured(company_name, response_path):
+    print(f'FROM LOAD JSON STRUCTURED {company_name}')
+    with open(f'{response_path}/structured_json/{company_name}/structured_json', 'r') as file:
+        data = json.load(file)
+    return data
+
 def main(files, response_path, images_path):
     # Main function for processing pdf files
     # Process pdf files to OCR json files
@@ -92,6 +106,7 @@ def main(files, response_path, images_path):
     # Process json files
     companies = []
     columns = []
+    duplicates = []
     # 1 processing single json file
     if len(jsons_path) == 1:
         if checking_headers(jsons_path[0]):
@@ -112,20 +127,24 @@ def main(files, response_path, images_path):
                 else:
                     return "Don't allow to process this file"
                 first_itereation = False
+                print(f'FROM MAIN FIRST ITERATION {companies[0]["company_name"]}')
             else:
                 if checking_headers(json_path):
                     columns = processing_with_headers(json_path)
                     company_name = proc_json.get_company_name(json_path)
                     companies.append({'company_name': company_name, 'columns': columns})
+                    print(f'FROM MAIN {companies[0]["company_name"]}')
                 else:
                     columns = processing_without_headers(json_path)
                     if companies:
                         companies[-1]['columns'].extend(columns)
                     else:
                         return "Error: No previous company found to append columns"
-    # 3 processing companies
-    processing_json(companies)
-    # 4 debugging
+    # 3 processing data companies and transform to dataframe and save to json_structured
+    datasets = []
     for company in companies:
-        print(f'Company: {company["company_name"]}')
-        print(f'Columns: {company["columns"]}')
+        processing_json(company, response_path)
+        datasets.append(load_json_structured(company['company_name'], response_path))
+    for dataset in datasets:
+        duplicates.extend(proc_dataframe.get_duplicate_names(dataset))
+    return datasets, duplicates

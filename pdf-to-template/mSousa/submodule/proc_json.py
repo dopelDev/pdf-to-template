@@ -164,6 +164,7 @@ def find_in_all_x(json_data, names_coords, tolerance_x=12, tolerance_y=12):
 # agrouping the text of the rows
 def transform_structure(all_rows):
     logger.info('Transforming structure of the data')
+    logger.info(f'All rows: {all_rows}')
     transformed = []
     for chunk in all_rows:
         text = ' '.join([row['text'] for row in chunk])
@@ -172,6 +173,7 @@ def transform_structure(all_rows):
         y1 = min([row['y1'] for row in chunk])
         y2 = max([row['y2'] for row in chunk])
         transformed.append({'text': text, 'x1': x1, 'x2': x2, 'y1': y1, 'y2': y2})
+    logger.info(f'Transformed: {transformed}')
     return transformed
 
 # search for the name of the company in the json data
@@ -226,36 +228,6 @@ def get_company_name(json_path):
     return clean_name 
 
 # Convert the json data to a data frame and return it like a json
-def json_to_dataframe_and_transform(json_data, company_name):
-    # Convertir JSON a DataFrame
-    df = pd.DataFrame(json_data)
-    
-    # Crear un nuevo DataFrame para los datos transformados
-    transformed_data = []
-    
-    # Iterar sobre las filas del DataFrame original, excluyendo la primera fila que es el nombre de la compañía
-    for _, row in df.iloc[1:].iterrows():
-        # Diccionario para los datos transformados de esta fila
-        transformed_row = {'Company Name': company_name, 'Employee Name': row['text']}
-        
-        # Iterar sobre cada conjunto de 3 columnas para cada trimestre
-        for i in range(1, 22, 3):  # de 1 a 21 en pasos de 3 para los 7 trimestres
-            quarter = (i - 1) // 3 + 1
-            quarter_data = {
-                'Total Wage': row.get(f'column{i}', 'N/A'),
-                'Qualified Wage': row.get(f'column{i+1}', 'N/A'),
-                'ERC Credit': row.get(f'column{i+2}', 'N/A')
-            }
-            transformed_row[f'Q{quarter}'] = quarter_data
-        
-        # La columna 22 es el total general
-        transformed_row['Total'] = row.get('column22', 'N/A')  # Asumiendo que el total está en la columna 22
-        
-        transformed_data.append(transformed_row)
-    
-    # Convertir la lista de diccionarios a un DataFrame
-    transformed_df = pd.DataFrame(transformed_data)
-    return transformed_data
 
 # work a dataframe 
 def merge_dataframes(responses_path):

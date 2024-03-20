@@ -41,8 +41,7 @@ def allowed_file(filename):
 def upload_file():
     session['processed_files'] = []
     data = None
-    merged_data = None
-    multiple_files = None
+    duplicated_names = None
     if request.method == 'POST':
         files = request.files.getlist('file')
         if not files or files[0].filename == '':
@@ -66,24 +65,19 @@ def upload_file():
             for index, file in enumerate(files):
                 file.save(pdf_directories_files[index])
 
-            data, multiple_files, merged_data = mSousa_main(pdf_directories_files, g.response_folder, g.images_folder)
-        session['total_results'] = data, merged_data 
+            data, duplicated_names = mSousa_main(pdf_directories_files, g.response_folder, g.images_folder)
+            print(f'FROM APP.PY: {duplicated_names}')
+        session['total_results'] = data, duplicated_names 
 
-        return redirect(url_for('show_results',multiple_files=multiple_files ))
+        return redirect(url_for('show_results'))
 
     return render_template('upload.html')
 
 @app.route('/results', methods=['GET'])
 def show_results():
-    data, merge_data = session.get('total_results', None)
-    multiple_files = request.args.get('multiple_files', 'False') == 'True'
-    type_multiple_files = type(merge_data)
+    data, duplicated_names = session.get('total_results', None)
 
-    print(f'FROM APP.PY: {type_multiple_files}')
-    if multiple_files:
-        return render_template('report_multiply.html', datasets=data, merged_data=merge_data)
-    else:
-        return render_template('report.html', datasets=data)
+    return render_template('report.html', datasets=data, duplicated_names=duplicated_names)
 
 if __name__ == '__main__':
     app.run(debug=True)
