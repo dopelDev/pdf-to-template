@@ -97,9 +97,7 @@ def json_to_dataframe_and_transform(json_data, company_name):
     # Convertir la lista de diccionarios a un DataFrame
     # Debugging
     ppp_reduction_data = next((data for data in transformed_data if data['Employee Name'] == 'PPP Reduction'), None)
-    logger.info(f'PPP Reduction data : {ppp_reduction_data}')
     fixed_ppp_reduction_data = fix_ppp_reduction(ppp_reduction_data)
-    logger.info(f'Fixed PPP Reduction data : {fixed_ppp_reduction_data}')
 
     transformed_df = pd.DataFrame(transformed_data)
     return transformed_data

@@ -1,6 +1,5 @@
 from flask import Flask, request, redirect, url_for, render_template, session, g
 import os
-import json
 from mSousa.submodule.proc_json import merge_dataframes
 from werkzeug.utils import secure_filename
 import uuid
@@ -66,7 +65,6 @@ def upload_file():
                 file.save(pdf_directories_files[index])
 
             data, duplicated_names = mSousa_main(pdf_directories_files, g.response_folder, g.images_folder)
-            print(f'FROM APP.PY: {duplicated_names}')
         session['total_results'] = data, duplicated_names 
 
         return redirect(url_for('show_results'))

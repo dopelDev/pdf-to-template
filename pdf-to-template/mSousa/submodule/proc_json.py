@@ -164,7 +164,6 @@ def find_in_all_x(json_data, names_coords, tolerance_x=12, tolerance_y=12):
 # agrouping the text of the rows
 def transform_structure(all_rows):
     logger.info('Transforming structure of the data')
-    logger.info(f'All rows: {all_rows}')
     transformed = []
     for chunk in all_rows:
         text = ' '.join([row['text'] for row in chunk])
@@ -173,7 +172,6 @@ def transform_structure(all_rows):
         y1 = min([row['y1'] for row in chunk])
         y2 = max([row['y2'] for row in chunk])
         transformed.append({'text': text, 'x1': x1, 'x2': x2, 'y1': y1, 'y2': y2})
-    logger.info(f'Transformed: {transformed}')
     return transformed
 
 # search for the name of the company in the json data
