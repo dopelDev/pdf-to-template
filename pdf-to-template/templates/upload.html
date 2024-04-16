@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Upload PDF File</title>
+    <title>Upload PDF Files</title>
 </head>
 <body>
-    <h1>Upload PDF File</h1>
+    <h1>Upload PDF Files</h1>
     <form method="POST" enctype="multipart/form-data">
-        <input type="file" name="file">
+        <!-- Añade el atributo 'multiple' para permitir la selección de múltiples archivos -->
+        <input type="file" name="file" multiple>
         <input type="submit" value="Upload">
     </form>
 </body>
 </html>
+

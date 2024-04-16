@@ -1,85 +1,81 @@
-from flask import Flask, request, redirect, url_for, render_template, jsonify
+from flask import Flask, request, redirect, url_for, render_template, session, g
 import os
-import json
+from mSousa.submodule.proc_json import merge_dataframes
 from werkzeug.utils import secure_filename
+import uuid
+from flask_session import Session
 from mSousa.main_module import main as mSousa_main
 
 app = Flask(__name__)
-app.config['UPLOAD_FOLDER'] = './pdf_directory'  # Actualiza esto con la ruta donde quieres guardar los archivos
-app.config['IMAGES_FOLDER'] = './images'  # Actualiza esto con la ruta donde quieres guardar las imagenes
-app.config['RESPONSE_FOLDER'] = './responses'  # Actualiza esto con la ruta donde quieres guardar las respuestas
-if not os.path.exists(app.config['UPLOAD_FOLDER']):
-    os.makedirs(app.config['UPLOAD_FOLDER'])
+app.config['SECRET_KEY'] = 'secret'
+app.config['SESSION_TYPE'] = 'filesystem'
+app.config['SESSION_FILE_DIR'] = './.flask_session/'
+Session(app)
 
-@app.route('/upload', methods=['GET', 'POST'])
-def upload_file():
-    duplicate_names = None
-    if request.method == 'POST':
-        if 'file' not in request.files:
-            return "No file part", 400
+@app.before_request
+def before_request():
+    if 'session_id' not in session:
+        session['session_id'] = uuid.uuid4().hex  # Genera un UUID para la sesión si no existe uno
 
-        file = request.files['file']
+    session_id = session.get('session_id')
+    session_folder_name = f'session_{session_id}'
+    base_path = os.path.join('.', session_folder_name)
 
-        if file.filename == '':
-            return "No selected file", 400
-        filename = file.filename.replace(" ", "_")
-        if file:
-            filename = secure_filename(filename)  # Use the modified filename
-            file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
-            file.save(file_path)
-            data, duplicate_names = mSousa_main(file_path, app.config['RESPONSE_FOLDER'], app.config['IMAGES_FOLDER']) 
-            json_data = json.dumps(data)
+    if not os.path.exists(base_path):
+        os.makedirs(base_path)
+        os.makedirs(os.path.join(base_path, 'pdf_directory'))
+        os.makedirs(os.path.join(base_path, 'images'))
+        os.makedirs(os.path.join(base_path, 'responses'))
 
-            # Guarda los resultados en un archivo
-            results_filename = filename + '.json'
-            results_filepath = os.path.join(app.config['RESPONSE_FOLDER'], results_filename)
-            with open(results_filepath, 'w') as f:
-                f.write(json_data)
-
-            if duplicate_names is not None:
-                json_data_duplicate_names = json.dumps(duplicate_names)
-                results_filename_duplicate_names = filename + '_duplicate_names.json'
-                results_filepath_duplicate_names = os.path.join(app.config['RESPONSE_FOLDER'], results_filename_duplicate_names)
-                with open(results_filepath_duplicate_names, 'w') as f:
-                    f.write(json_data_duplicate_names)
-                
-                # Redirige al usuario a la URL de resultados
-                return redirect(url_for('show_results_with_duplicates', filename=results_filename, filename_duplicates=results_filename_duplicate_names))
-
-            return redirect(url_for('show_results', filename=results_filename))
-
-    else:
-        return render_template('upload.html')
-
-@app.route('/results/<filename>', methods=['GET'])
-def show_results(filename):
-    # Carga los resultados del archivo
-    results_filepath = os.path.join(app.config['RESPONSE_FOLDER'], filename)
-    with open(results_filepath, 'r') as f:
-        results = f.read()
-    return render_template('report.html', data=json.loads(results))
-
-@app.route('/results/<filename>/<filename_duplicates>', methods=['GET'])
-def show_results_with_duplicates(filename, filename_duplicates):
-    # Carga los resultados del archivo
-    results_filepath = os.path.join(app.config['RESPONSE_FOLDER'], filename)
-    with open(results_filepath, 'r') as f:
-        results = f.read()
-    # Carga los resultados del archivo
-    results_filepath_duplicates = os.path.join(app.config['RESPONSE_FOLDER'], filename_duplicates)
-    with open(results_filepath_duplicates, 'r') as f:
-        results_duplicates = f.read()
-    # Find duplicates
-    return render_template('report_with_duplicates.html', data=json.loads(results), duplicate_names=json.loads(results_duplicates))
-
+    g.session_folder = base_path
+    g.pdf_directory = os.path.join(base_path, 'pdf_directory')
+    g.images_folder = os.path.join(base_path, 'images')
+    g.response_folder = os.path.join(base_path, 'responses')
 
 def allowed_file(filename):
-    if '.' not in filename:
-        return False, "File has no extension"
-    elif filename.rsplit('.', 1)[1].lower() != 'json':
-        return False, "File is not a JSON file"
-    else:
-        return True, "File is valid"
+    ALLOWED_EXTENSIONS = {'pdf'}
+    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
+@app.route('/', methods=['GET', 'POST'])
+def upload_file():
+    session['processed_files'] = []
+    data = None
+    duplicated_names = None
+    if request.method == 'POST':
+        files = request.files.getlist('file')
+        if not files or files[0].filename == '':
+            return "No selected files", 400
+        
+        pdf_directories_files = []
+        
+        allowed_files = None 
+        for file in files:
+            if file and allowed_file(file.filename):
+                allowed_files = True
+                filename = secure_filename(file.filename.replace(" ", "_"))
+                pdf_directories_files.append(os.path.join(g.pdf_directory, filename))
+            else:
+                allowed_files = False
+                break
+
+        # Here Template for don't allow files
+
+        if allowed_files:
+            for index, file in enumerate(files):
+                file.save(pdf_directories_files[index])
+
+            data, duplicated_names = mSousa_main(pdf_directories_files, g.response_folder, g.images_folder)
+        session['total_results'] = data, duplicated_names 
+
+        return redirect(url_for('show_results'))
+
+    return render_template('upload.html')
+
+@app.route('/results', methods=['GET'])
+def show_results():
+    data, duplicated_names = session.get('total_results', None)
+
+    return render_template('report.html', datasets=data, duplicated_names=duplicated_names)
 
 if __name__ == '__main__':
     app.run(debug=True)

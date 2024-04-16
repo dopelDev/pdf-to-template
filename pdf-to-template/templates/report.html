@@ -2,22 +2,30 @@
 <html>
 	<head>
 		<title>Report</title>
-	</head>
-	<body>
-		{% block content %}
-		<h1>Company: {{ data[0]['Company name'] }}</h1>
+		<script src="{{ url_for('static', filename='js/custom.js') }}"></script>
 		<style>
 table {
-	border-collapse: collapse; /* Esto es para que no haya espacios entre los bordes de las celdas */
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 20px;
 }
-				th, td, tr {
-					border: 1px solid black; /* Define el estilo del borde */
+				th, td {
+					border: 1px solid black;
+					padding: 8px;
+					text-align: left;
+				}
+				th {
+					background-color: #f2f2f2;
 				}
 		</style>
+	</head>
+	<body>
+		{% for dataset in datasets %}
+		<h1>Company: {{ dataset[0]['Company Name'] }}</h1>
 		<table>
 			<thead>
 				<tr>
-					<th></th> <!-- Blank cell for Master Employee List Label -->
+					<th></th> <!-- Blank cell for Employee Name Label -->
 					<th colspan="3">2020 Q1 (Mar 14-30)</th>
 					<th colspan="3">2020 Q2</th>
 					<th colspan="3">2020 Q3</th>
@@ -28,29 +36,71 @@ table {
 					<th>Total</th>
 				</tr>
 				<tr>
-					<th></th> <!-- Blank cell for Master Employee List Label -->
+					<th>Employee Name</th>
 					{% for _ in range(7) %}
 					<th>Total Wage</th>
 					<th>Qualified Wage</th>
 					<th>ERC Credit</th>
 					{% endfor %}
-					<th></th>
+					<th></th> <!-- For Total column -->
 				</tr>
 			</thead>
 			<tbody>
-				{% for row in data[1:] %}
+				{% for row in dataset[:] %}
 				<tr>
-					<td>{{ row['text'] }}</td>
-					{% for i in range(1, 23) %}
-					{% if row['text'] == 'PPP Reduction' and i % 2 == 1 %}
-					<td></td>  <!-- Agrega una celda vacía al inicio de cada trimestre -->
-					{% endif %}
-					<td>{{ row.get('column' ~ i, '') }}</td>
+					<td>{{ row['Employee Name'] }}</td>
+					{% for i in range(1, 8) %}
+					<td>{{ row['Q' ~ i]['Total Wage'] }}</td>
+					<td>{{ row['Q' ~ i]['Qualified Wage'] }}</td>
+					<td>{{ row['Q' ~ i]['ERC Credit'] }}</td>
 					{% endfor %}
+					<td>{{ row['Total'] }}</td>
 				</tr>
 				{% endfor %}
 			</tbody>
 		</table>
+		{% endfor %}
+{% if duplicated_names %}
+<h1>Duplicated Names</h1>
+<table>
+    <thead>
+        <tr>
+            <th></th> <!-- Blank cell for Employee Name Label -->
+            <th colspan="3">2020 Q1 (Mar 14-30)</th>
+            <th colspan="3">2020 Q2</th>
+            <th colspan="3">2020 Q3</th>
+            <th colspan="3">2020 Q4</th>
+            <th colspan="3">2021 Q1</th>
+            <th colspan="3">2021 Q2</th>
+            <th colspan="3">2021 Q3</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <th>Employee Name</th>
+            {% for _ in range(7) %}
+            <th>Total Wage</th>
+            <th>Qualified Wage</th>
+            <th>ERC Credit</th>
+            {% endfor %}
+            <th></th> <!-- For Total column -->
+        </tr>
+    </thead>
+    <tbody>
+        {% for row in duplicated_names %}
+        <tr>
+            <td>{{ row['Employee Name'] }}</td>
+            {% for i in range(1, 8) %}
+            <td>{{ row['Q' ~ i]['Total Wage'] or 'N/A' }}</td>
+            <td>{{ row['Q' ~ i]['Qualified Wage'] or 'N/A' }}</td>
+            <td>{{ row['Q' ~ i]['ERC Credit'] or 'N/A' }}</td>
+            {% endfor %}
+            <td>{{ row['Total'] }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endif %}
+
 	</body>
-	{% endblock %}
 </html>
+
